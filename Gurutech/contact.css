@@ -5,6 +5,7 @@
   font-weight: 500;
   font-style: normal;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body{
@@ -303,4 +304,150 @@ input[type="submit"]{
 
 .box:hover .circle{
   left:220px
+}
+
+/* footer */
+
+footer{
+  height: 80vh;
+  width: 100vw;
+  margin: 0 30px;
+}
+
+/***** footer title *****/
+
+.footer-title{
+  margin-right: 160px;
+}
+
+.foot-top p{
+  height: 120px;
+  font-weight: 300;
+  font-size: 16px;
+  color: rgb(167, 167, 167);
+  width: 350px;
+  line-height: 25px;
+}
+.foot-top img{
+  margin-bottom: 15px;
+}
+
+.footer-bottom{
+  position: relative;
+}
+
+.footer-bottom h3{
+  margin-top: 20px;
+}
+
+.footer-input{
+  padding: 18px 70px 18px 10px;
+}
+
+/* --------------------------not working------------------------ */
+.footer-input:focus{
+  border: 1px blue solid;
+}
+
+.footer-btn{
+  position: absolute;
+  padding: 20px 20px;
+  background-color: rgb(58, 58, 226);
+  color: white;
+  border: none;
+  left: 250px;
+  transition: ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.footer-btn:hover{
+  left: 240px;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.footer-links > div{
+  width: 500px;
+}
+
+footer a{
+  text-decoration: none;
+  color: rgb(109, 109, 109);
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.fli{
+  display: flex;
+  flex-direction: column;
+}
+
+.fli > a, h3{
+  margin: 16px;
+}
+
+/***** footer contact *****/
+.footer-contact{
+  margin-right: 140px;
+}
+
+.footer-contact img{
+  height: 25px;
+  aspect-ratio: 1;
+  margin-right: 10px;
+}
+
+.fli > div{
+  margin: 16px
+}  
+
+.fli-grp{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+/***** footer quick links *****/
+.footer-qlinks{
+  margin-right: 60px;
+}
+
+/***** footer socials *****/
+hr{
+  width: 94vw;
+}
+
+#footer-socials{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 100px;
+  width: 95vw;
+}
+
+.social-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.social-icons a{
+  padding: 0 15px;
+}
+
+.social-icons img{
+  height: 13px;
+  aspect-ratio: 1;
+  border: 1px solid rgb(109, 109, 109);
+  padding: 10px;
+  box-sizing: content-box;
 }

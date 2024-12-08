@@ -184,5 +184,77 @@
     </div>
   </section>
 
+
+  <footer>
+    <section class="footer-links">
+      <div class="footer-title">
+        <div class="foot-top">
+          <a class="nav-title" href="#">
+              <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66ea5798722eca59f36717ae_Logo.svg" alt="Dentacare">
+          </a>
+
+          <p>Pharetra maecenas felis vestibulum convallis mollis nullam congue sit.</p>
+        </div>
+
+        <div class="foot-bottom">
+          <h3>Subscribe Our Newsletter</h3>
+
+          <input type="text" class="footer-input" placeholder="Enter Your Email">
+          <button class="footer-btn">-></button>
+          <!-- <input type="submit" class="footer-btn"> -->
+        </div>
+      </div>
+
+      <div class="footer-contact fli">
+        <h3>Contact Info</h3>
+        <div class="fli-grp">
+          <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fbe960eda3e825ab6d1789_Contact%20Locator%20Icon.svg" alt=""> 
+          <a href=""> 410 Sandtown, California 94001, USA</a>
+        </div>
+        
+        <div class="fli-grp">
+          <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fbe960eda3e825ab6d1789_Contact%20Locator%20Icon.svg" alt="">
+          <a href=""> info@example.com</a>
+        </div>
+        
+        <div class="fli-grp">
+          <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fbe960eda3e825ab6d1789_Contact%20Locator%20Icon.svg" alt="">
+          <a href=""> (888) 456 7890</a>
+        </div>
+      </div>
+
+      <div class="footer-qlinks fli">
+        <h3>Quick Links</h3>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Servies</a>
+        <a href="">Blog</a>
+        <a href="">Contact</a>
+      </div>
+
+      <div class="footer-upages fli">
+        <h3>Utility Pages</h3>
+        <a href="">Style Guide</a>
+        <a href="">Password Protected</a>
+        <a href="">404 Not Found</a>
+        <a href="">License</a>
+        <a href="">Change Log</a>
+      </div>
+    </section>
+
+    <hr>
+
+    <section id="footer-socials">
+      <a href="">Designed by Radiant Templates. Powered by Webflow</a>
+
+      <div class="social-icons">
+        <a href=""><img src="https://cdn-icons-png.flaticon.com/512/59/59439.png" alt=""></a>
+        <a href=""><img src="https://seeklogo.com/images/L/linkedin-icon-logo-32AA14A009-seeklogo.com.png" alt=""></a>
+        <a href=""><img src="https://www.iconpacks.net/icons/2/free-instagram-logo-icon-3497-thumb.png" alt=""></a>
+        <a href=""><img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-black-icon.png" alt=""></a>
+      </div>
+    </section>
+  </footer>
+
   </body>
 </html>
