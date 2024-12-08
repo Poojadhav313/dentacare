@@ -79,16 +79,16 @@
 
   <section id="form-section">
     <h1>Contact Us</h1>
-    <form>
+    <form method="POST"> 
       <div class="form-dub">
         <div class="form-item">
           <label>First Name</label>
-          <input type="text" required>
+          <input type="text" name="fname" required>
         </div>
 
         <div class="form-item">
           <label>Last Name</label>
-          <input type="text" required>
+          <input type="text" name="lname" required>
         </div>
       </div>
 
@@ -97,14 +97,14 @@
       <div class="form-dub">
         <div class="form-item">
           <label>Email address</label>
-          <input type="email" required>
+          <input type="email" name="email" required>
         </div>
 
         <br>
 
         <div class="form-item">
           <label>Phone no</label>
-          <input type="number" required>
+          <input type="number" name="phone" required>
         </div>
       </div>
 
@@ -112,7 +112,7 @@
 
       <div class="form-item">
         <label>Message</label><br>
-        <textarea></textarea>
+        <textarea name="msg"></textarea>
       </div>
 
       <br>
@@ -124,6 +124,31 @@
       <input type="Submit" value="Send Message">
       
     </form>
+
+
+    <?php
+
+    if($_SERVER["REQUEST_METHOD"] == "POST")
+    {
+      $fname = $_POST["fname"];
+      $lname = $_POST["lname"];
+      $email = $_POST["email"];
+      $phone = $_POST["phone"];
+      $msg = $_POST["msg"];
+
+      $to = "greenpantry123@gmail.com";
+      $sub = "message from ".$fname." ".$lname;
+      
+      $header = "Contact us form response";
+
+      $send = mail($to, $sub, $msg, $header);
+
+      echo($send ? "": error_get_last());
+
+    }
+      
+    ?>
+
   </section>
 
 
