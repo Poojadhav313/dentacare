@@ -1,14 +1,111 @@
+*{
+  margin:0;
+  padding:0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
 
+header{
+  color: white;
+  text-transform: uppercase;
+  position: sticky;
+}
+
+header a{
+  text-decoration: none;
+  color: white
+}
+
+
+#sobtn{
+  font-size: 11px;
+  color: #000;
+  background-color: rgb(255, 255, 255);
+  padding: 5px 10px;
+  letter-spacing: 0px;
+  text-transform: capitalize;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.special-offer{
+  height: 50px;
+  background-color: rgb(58, 58, 226);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.underline-text{
+  text-decoration: underline;
+}
+
+/* navbar */
+
+.navbar{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: grey;
+  padding: 17px 20px;
+  border-bottom: 1px rgb(243, 242, 242) solid;
+  background: linear-gradient(rgba(206, 205, 205, 0.5), rgba(204, 204, 204, 0.5)),url(https://img.freepik.com/free-photo/close-up-boy-dentist_23-2149206298.jpg?t=st=1733639334~exp=1733642934~hmac=c475fb000565b9d24dbca91db524a9bd3022f63ca9f92e39227616ba77d71226&w=740);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+
+/* nav left */
+
+.nav-title{
+}
+
+/* nav middle */
+
+.nav-middle{
+  padding-left: 60px;
+  letter-spacing: 0.5px;
+}
+
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-li-item{
+  padding: 0 25px;
+}
+
+
+
+/* nav right */
+
+.nav-right >.nav-list> .nav-li-item{
+  padding: 0 5px;
+
+}
 
 .phoneicon, .phoneno{
   transition: all 0.8s ease-in-out 0s;
   cursor: pointer;
 }
 
-.navright:hover .phoneicon{
+.nav-right:hover .phoneicon{
   transform :rotate(140deg);
 }
 
-.navright:hover .phoneno{
-  transform :rotate(140deg);
+.nav-right:hover .phoneno{
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.hamimg{
+  padding-left: 80px;
 }
