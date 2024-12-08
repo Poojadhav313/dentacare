@@ -104,7 +104,7 @@
 
         <div class="form-item">
           <label>Phone no</label>
-          <input type="number" name="phone" required>
+          <input type="text" name="phone" pattern="[0-9]{10}" maxlength="10" required>
         </div>
       </div>
 
@@ -121,6 +121,7 @@
         <input type="checkbox" required>I agree to the <span>Terms and conditions</span>
       </div>
 
+      <submit></submit>
       <input type="Submit" value="Send Message">
       
     </form>
@@ -151,6 +152,37 @@
 
   </section>
 
+  <section id="middle-section">
+    <h1>Stay Connected with Our Contact Information</h1>
+
+    <div class="boxes">
+      <div class="box">
+        <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fbe960eda3e825ab6d1789_Contact%20Locator%20Icon.svg" alt="">
+        <span class="circle"></span>
+
+        <h3>Info@Example.com</h3>
+        <p>Have a project in mind? Send a message.</p>
+      </div>
+
+      <div class="box">
+        <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fbe960eda3e825ab6d1789_Contact%20Locator%20Icon.svg" alt="">
+        <span class="circle"></span>
+
+        <h3>(888) 456 7890</h3>
+        <p>We’re interested in working together!</p>
+      </div>
+
+      <div class="box">
+        <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fbe960eda3e825ab6d1789_Contact%20Locator%20Icon.svg" alt="" style="margin-top: 25px;">
+        <span class="circle"></span>
+
+        <h3>410 Sandtown, California 94001, USA</h3>
+        <p>Would you like to join our growing team?</p>
+      </div>
+
+
+    </div>
+  </section>
 
   </body>
 </html>

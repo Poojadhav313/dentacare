@@ -12,7 +12,7 @@ body{
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  background-color: rgb(243, 243, 243);
+  background-color: rgba(247, 244, 244, 0.295);
 }
 
 header{
@@ -189,6 +189,12 @@ header a{
   border-bottom: 1px solid rgb(168, 168, 168);
   padding: 20px 5px;
   width: 100%;
+  outline: none;
+}
+
+.form-item input:focus{
+  border-bottom: 1px solid rgb(168, 168, 168);
+
 }
 
 .form-item textarea{
@@ -232,4 +238,69 @@ input[type="submit"]{
   border:none;
   margin-left: 20px;
   font-size: 15px;
+  cursor: pointer;
+}
+
+
+/* middle section */
+
+#middle-section, .box, .boxes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#middle-section h1{
+  font-size: 45px;
+  max-width: 40%;
+  margin-bottom: 40px;
+}
+
+.boxes{
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.box{
+  background-color: rgba(180, 206, 241, 0.13);
+  height: 260px;
+  width: 390px;
+  margin: 0 13px;
+  position: relative;
+}
+
+.box img{
+  margin-top: 0px;
+  position: relative;
+  display: block;
+}
+
+.box h3{
+  padding: 30px 0;
+  width: 250px;
+}
+
+.box p{
+  width: 200px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+
+.circle{
+  height: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: rgba(192, 198, 255, 0.514);
+  z-index: -1;
+  position:absolute;
+  left: 200px;
+  top: 50px;
+  transition: ease-in-out 0.3s;
+}
+
+.box:hover .circle{
+  left:220px
 }
