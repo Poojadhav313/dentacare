@@ -22,7 +22,7 @@
 
 
 <body>
-  <header>
+<header>
 
   <div class="special-offer">
     <p><span id="sobtn">  Special Offer</span>Healthy Smiles for a Healthy Life - <span class="underline-text">Book an Appointment!</span></p>
@@ -66,13 +66,17 @@
     </ul>
     
     </div>
-    
-    
   </nav>
 
+</header>  
 
 
+  <section id="main-section">
+    <p>CONTACT US</p>
+    <h1>Reach Out To Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur Condimentum pellentesqe enim felis blandit ornare cursu quisque.</p>
+  </section>
 
-  </header>  
+
   </body>
 </html>
