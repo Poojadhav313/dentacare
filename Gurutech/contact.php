@@ -77,6 +77,55 @@
     <p>Lorem ipsum dolor sit amet consectetur Condimentum pellentesqe enim felis blandit ornare cursu quisque.</p>
   </section>
 
+  <section id="form-section">
+    <h1>Contact Us</h1>
+    <form>
+      <div class="form-dub">
+        <div class="form-item">
+          <label>First Name</label>
+          <input type="text" required>
+        </div>
+
+        <div class="form-item">
+          <label>Last Name</label>
+          <input type="text" required>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="form-dub">
+        <div class="form-item">
+          <label>Email address</label>
+          <input type="email" required>
+        </div>
+
+        <br>
+
+        <div class="form-item">
+          <label>Phone no</label>
+          <input type="number" required>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="form-item">
+        <label>Message</label><br>
+        <textarea></textarea>
+      </div>
+
+      <br>
+
+      <div class="form-checkbtn">
+        <input type="checkbox" required>I agree to the <span>Terms and conditions</span>
+      </div>
+
+      <input type="Submit" value="Send Message">
+      
+    </form>
+  </section>
+
 
   </body>
 </html>

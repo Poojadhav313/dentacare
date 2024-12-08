@@ -7,6 +7,14 @@
   box-sizing: border-box;
 }
 
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: rgb(243, 243, 243);
+}
+
 header{
   color: white;
   text-transform: uppercase;
@@ -139,4 +147,89 @@ header a{
   width: 550px;
   text-align: center;
   font-size: 16px;
+}
+
+/* form section */
+
+#form-section{
+  margin: 140px 0;
+  width:50%;
+  margin-left: 25%;
+  background-color: #fff;
+  padding: 60px 50px;
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+#form-section h1{
+  font-size: 45px;
+  padding-bottom: 20px
+}
+
+#form-section label{
+  color: rgb(58, 58, 226);;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+  width: 100%;
+}
+
+.form-item{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.form-item input{
+  border: none;
+  border-bottom: 1px solid rgb(168, 168, 168);
+  padding: 20px 5px;
+  width: 100%;
+}
+
+.form-item textarea{
+  height: 80px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(168, 168, 168);
+}
+
+.form-item input:focus{
+  border: none;
+}
+
+.form-dub{
+  display: flex;
+}
+
+.form-dub > .form-item{
+  width: 50%;
+  display: block;  
+}
+
+.form-checkbtn{
+  font-weight: 300;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.form-checkbtn span{
+  color: rgb(58, 58, 226);
+}
+
+input[type="checkbox"]{
+  margin: 0 20px 50px 20px;
+}
+
+input[type="submit"]{
+  padding: 25px 50px;
+  background-color: rgb(58, 58, 226);
+  color: #fff;
+  border:none;
+  margin-left: 20px;
+  font-size: 15px;
 }
