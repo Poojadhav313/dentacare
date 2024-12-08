@@ -1,0 +1,14 @@
+
+
+.phoneicon, .phoneno{
+  transition: all 0.8s ease-in-out 0s;
+  cursor: pointer;
+}
+
+.navright:hover .phoneicon{
+  transform :rotate(140deg);
+}
+
+.navright:hover .phoneno{
+  transform :rotate(140deg);
+}
