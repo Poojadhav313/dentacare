@@ -22,7 +22,7 @@
 
 
 <body>
-<header>
+<header class="revealtop">
 
   <div class="special-offer">
     <p><span id="sobtn">  Special Offer</span>Healthy Smiles for a Healthy Life - <span class="underline-text">Book an Appointment!</span></p>
@@ -72,21 +72,21 @@
 
 
   <section id="main-section">
-    <p>CONTACT US</p>
-    <h1>Reach Out To Us</h1>
-    <p>Lorem ipsum dolor sit amet consectetur Condimentum pellentesqe enim felis blandit ornare cursu quisque.</p>
+    <p  class="reveal">CONTACT US</p>
+    <h1  class="reveal">Reach Out To Us</h1>
+    <p  class="reveal">Lorem ipsum dolor sit amet consectetur Condimentum pellentesqe enim felis blandit ornare cursu quisque.</p>
   </section>
 
   <section id="form-section">
-    <h1>Contact Us</h1>
-    <form method="POST"> 
+    <h1 class="reveal">Contact Us</h1>
+    <form method="POST"  class="reveal"> 
       <div class="form-dub">
-        <div class="form-item">
+        <div class="form-item reveal">
           <label>First Name</label>
           <input type="text" name="fname" required>
         </div>
 
-        <div class="form-item">
+        <div class="form-item reveal">
           <label>Last Name</label>
           <input type="text" name="lname" required>
         </div>
@@ -152,8 +152,8 @@
 
   </section>
 
-  <section id="middle-section">
-    <h1>Stay Connected with Our Contact Information</h1>
+  <section id="middle-section" class="reveal">
+    <h1 >Stay Connected with Our Contact Information</h1>
 
     <div class="boxes">
       <div class="box">
@@ -255,6 +255,10 @@
       </div>
     </section>
   </footer>
+
+
+
+  <script src="scroll.js"></script>
 
   </body>
 </html>
