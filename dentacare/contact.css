@@ -6,8 +6,8 @@ body{
   background-color: rgba(247, 244, 244, 0.295);
 }
 
-/* main section */
-#main-section{
+/* banner section */
+#banner-section{
   color: #fff;
   display: flex;
   align-items: center;
@@ -23,12 +23,12 @@ body{
   background-image: linear-gradient(rgba(206, 205, 205, 0.2), rgba(204, 204, 204, 0.2)),url(https://img.freepik.com/premium-photo/beautiful-girl-treated-teeth_88340-5103.jpg?w=740);
 }
 
-#main-section h1{
+#banner-section h1{
   font-size: 65px;
   padding: 10px;
 }
 
-#main-section p{
+#banner-section p{
   width: 550px;
   text-align: center;
   font-size: 16px;
