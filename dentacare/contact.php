@@ -9,9 +9,9 @@
 <body>
 
   <section id="banner-section">
-    <p  class="reveal">CONTACT US</p>
-    <h1  class="reveal">Reach Out To Us</h1>
-    <p  class="reveal">Lorem ipsum dolor sit amet consectetur Condimentum pellentesqe enim felis blandit ornare cursu quisque.</p>
+    <p class="banner-p">Contact us</p>
+    <h1>Reach Out To Us</h1>
+    <p>Lorem ipsum dolor sit amet consectetur Condimentum pellentesqe enim felis blandit ornare cursu quisque.</p>
   </section>
 
   <section id="form-section">

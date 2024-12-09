@@ -8,7 +8,11 @@
 
 <body>
 
-  <section id="banner-section"></section>
+<section id="banner-section">
+    <p class="banner-p">Latest Blog</p>
+    <h1>Blog & Articles</h1>
+    <p>Lorem ipsum dolor sit amet consectetur. Condimentum pellentesque enim felis blandit ornare cursus quisque. Sagittis at a eget suscipit mattis nulla egestas porttitor massa.</p>
+  </section>
 
   <section id="main-section">
     <section id="section-title">
@@ -76,10 +80,10 @@
         </div>
         <div class="img">
           <img src="" alt="">
-      </div>
-      <div class="arrow">
-          ->
-      </div>
+        </div>
+        <div class="arrow">
+            ->
+        </div>
     </div>
 
     <div id="section6">

@@ -1,3 +1,9 @@
+/* banner section */
+
+#banner-section{
+  background-image: linear-gradient(rgba(206, 205, 205, 0.2), rgba(204, 204, 204, 0.2)),url(https://img.freepik.com/premium-photo/dentists-examining-boy-clinic_1048944-29460130.jpg?w=740);
+ }
+
 /* main section */
 #main-section{
   padding: 250px 0 150px;
