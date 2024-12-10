@@ -1,0 +1,148 @@
+/* banner section */
+
+#banner-section{
+  background-image: linear-gradient(rgba(206, 205, 205, 0.2), rgba(204, 204, 204, 0.2)),url(https://img.freepik.com/premium-photo/midsection-scientist-examining-chemical-laboratory_1048944-20127154.jpg?w=740);
+}
+
+/* main section */
+
+#main-section{
+  width: 70%;
+  margin-left: 16%;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  text-align: left;
+}
+
+#main-section h2{
+  line-height: 35px;
+
+}
+
+#main-section > *{
+  margin-bottom: 50px;
+}
+
+#main-section .no-margin{
+  margin-bottom: 10px;
+}
+
+#main-section img{
+  height: 380px;
+  width: 70vw;
+}
+
+#main-section .img2{
+  height: 150px;
+}
+
+#main-section a{
+  color: #000;
+  font-weight: 400;
+}
+
+#main-section p, li{
+  color: var(--grey);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  padding-left: 10px;
+}
+
+#main-section ul{
+  margin-left: 40px;
+}
+
+.blue-left-line{
+  box-shadow: -3px 0 var(--blue);
+}
+
+.small-hr{
+  width: 100%;
+}
+
+.long-hr{
+  margin-left: -180px;
+}
+
+#expert-section{
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0 100px 0;
+  width: 70%;
+  align-items: center;
+  justify-content: center;
+}
+
+#expert-section img{
+  height: 100px;
+  aspect-ratio: 1;
+}
+
+#expert-data{
+  margin-left: -100px;
+}
+
+.expert-tag{
+  color: var(--blue);
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 10px 15px;
+  margin-left: 20px;
+  background-color: rgba(142, 142, 255, 0.199);
+}
+
+#expert-section p{
+  margin-top: 20px;
+}
+
+
+#news-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#news-title h1{
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+#news-boxes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+#news-boxes img{
+  height: 380px;
+  width: 480px;
+}
+
+.box{
+  border-bottom: 1px solid var(--grey);
+  padding-bottom: 50px;
+}
+
+.box > *{
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+
+.box > .date{
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.box > p{
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.box > h3{
+  text-transform: capitalize;
+}
