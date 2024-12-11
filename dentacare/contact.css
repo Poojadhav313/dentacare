@@ -31,7 +31,7 @@ body{
 }
 
 #form-section label{
-  color: rgb(58, 58, 226);;
+  color: var(--blue);
   text-transform: uppercase;
   font-weight: 300;
   font-size: 14px;
@@ -87,7 +87,7 @@ body{
 }
 
 .form-checkbtn span{
-  color: rgb(58, 58, 226);
+  color: var(--blue);
 }
 
 input[type="checkbox"]{
@@ -96,7 +96,7 @@ input[type="checkbox"]{
 
 input[type="submit"]{
   padding: 25px 50px;
-  background-color: rgb(58, 58, 226);
+  background-color: var(--blue);
   color: #fff;
   border:none;
   margin-left: 20px;

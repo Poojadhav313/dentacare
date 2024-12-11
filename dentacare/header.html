@@ -19,7 +19,7 @@
       /* global variable */
       :root{
         --blue: rgb(58, 58, 226);
-        --grey: rgb(167, 167, 167);
+        --grey: rgb(109, 109, 109);
       }
 
 
@@ -83,7 +83,7 @@ header a{
   display:flex;
   align-items: center;
   justify-content: space-between;
-  background-color: grey;
+  /* background-color: grey; */
   padding: 0 0 0 20px;
   border-bottom: 1px rgba(243, 242, 242, 0.603) solid;
   background: linear-gradient(rgba(206, 205, 205, 0.5), rgba(204, 204, 204, 0.5)),url(https://img.freepik.com/premium-photo/beautiful-girl-treated-teeth_88340-5103.jpg?w=740);
@@ -161,10 +161,10 @@ header a{
 }
 
 #banner-section p{
-  width: 550px;
+  width: 600px;
   text-align: center;
   font-size: 16px;
-  
+  font-weight: 400;
 }
 
 #banner-section .banner-p{
@@ -189,7 +189,7 @@ footer{
   height: 120px;
   font-weight: 300;
   font-size: 16px;
-  color: rgb(167, 167, 167);
+  color: var(--grey);
   width: 350px;
   line-height: 25px;
 }
@@ -217,7 +217,7 @@ footer{
 .footer-btn{
   position: absolute;
   padding: 20px 20px;
-  background-color: rgb(58, 58, 226);
+  background-color: var(--blue);
   color: white;
   border: none;
   left: 250px;
@@ -242,10 +242,15 @@ footer{
 
 footer a{
   text-decoration: none;
-  color: rgb(109, 109, 109);
+  color: var(--grey);
   font-weight: 300;
   font-size: 15px;
   line-height: 20px;
+  transition: 0.3s ease;
+}
+
+footer a:hover{
+  color: var(--blue);
 }
 
 .fli{
@@ -324,7 +329,7 @@ hr{
   padding: 30px;
 }
 
-.nav-li-item:hover{
+.nav-middle .nav-li-item:hover{
   /* background-color: red; */
   box-shadow:inset 0 -2px #fff;
   transition: 0.3s ease;
@@ -344,7 +349,7 @@ hr{
 .nav-drop{
   display: none;
   position: absolute;
-  top: 80px;
+  top: 85px;
   left: calc(0% - 60px);
 }
 
@@ -371,7 +376,7 @@ hr{
 
 .nav-drop a:hover{
   padding-left: 25px;
-  color: blue;
+  color: var(--blue);
 }
 
 

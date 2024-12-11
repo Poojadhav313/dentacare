@@ -35,7 +35,7 @@
 #section-title p{
   font-size: 16px;
   padding-top: 10px;
-  color: rgb(167, 167, 167);
+  color: var(--grey);
   font-weight: 300;
   line-height: 30px;
 }
@@ -76,7 +76,7 @@
 }
 
 .hover-section .date{
-  color: rgb(109, 109, 109);
+  color: var(--grey);
   font-weight: 300;
   font-size: 16px;
   line-height: 20px;
