@@ -14,6 +14,193 @@
 </section>
 
 
+<section id="main-section">
+  <div id="main-section-title">
+    <h1>Personalized Dental Care for a Lifetime of Healthy Smiles</h1>
+    <p>There are many variations of passages of lorem Ipsum available, but majority have suffered alteration in some form, by injected humor, or randomized words .passages of  available</p>
+    <hr>
+  </div>
+
+  <div id="main-sectin-boxes">
+
+    <div class="box">
+      <div class="box-title">
+        <h1>01. Oral Surgery</h1>
+      </div>
+      <div class="box-data-holder">
+      <div class="box-data">
+        <div class="box-data-left">
+          <p>There are many variations of passages of lorem Ipsum available, but majority have suffered alteration in some form.</p>
+          <div class="double-list">
+          <ul>
+            <li>Cancer Screening</li>
+            <li>Oral Hygiene</li>
+            <li>Dental Cleaning</li>
+            <li>Cavity Detection</li>
+            <li>Digital X-Rays</li>
+          </ul>
+          <ul>
+            <li>Sensetivity Testing</li>
+            <li>Tooth Decay</li>
+            <li>Oral Examination</li>
+            <li>Tartar Removal</li>
+            <li>Paronamic X-Rays</li>
+          </ul>
+          </div>
+        </div>
+        <div class="box-data-right">
+          <div class="box-img"></div>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+    <hr>
+
+    <div class="box">
+      <div class="box-title">
+        <h1>02. Cavity Protection</h1>
+      </div>
+      <div class="box-data-holder">
+      <div class="box-data">
+        <div class="box-data-left">
+          <p>There are many variations of passages of lorem Ipsum available, but majority have suffered alteration in some form.</p>
+          <div class="double-list">
+          <ul>
+            <li>Cancer Screening</li>
+            <li>Oral Hygiene</li>
+            <li>Dental Cleaning</li>
+            <li>Cavity Detection</li>
+            <li>Digital X-Rays</li>
+          </ul>
+          <ul>
+            <li>Sensetivity Testing</li>
+            <li>Tooth Decay</li>
+            <li>Oral Examination</li>
+            <li>Tartar Removal</li>
+            <li>Paronamic X-Rays</li>
+          </ul>
+          </div>
+        </div>
+        <div class="box-data-right">
+          <div class="box-img"></div>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+    <hr>
+
+    <div class="box">
+      <div class="box-title">
+        <h1>03. Digital X-Rays</h1>
+      </div>
+      <div class="box-data-holder">
+      <div class="box-data">
+        <div class="box-data-left">
+          <p>There are many variations of passages of lorem Ipsum available, but majority have suffered alteration in some form.</p>
+          <div class="double-list">
+          <ul>
+            <li>Cancer Screening</li>
+            <li>Oral Hygiene</li>
+            <li>Dental Cleaning</li>
+            <li>Cavity Detection</li>
+            <li>Digital X-Rays</li>
+          </ul>
+          <ul>
+            <li>Sensetivity Testing</li>
+            <li>Tooth Decay</li>
+            <li>Oral Examination</li>
+            <li>Tartar Removal</li>
+            <li>Paronamic X-Rays</li>
+          </ul>
+          </div>
+        </div>
+        <div class="box-data-right">
+          <div class="box-img"></div>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+    <hr>
+
+    <div class="box">
+      <div class="box-title">
+        <h1>04. Space Maintenance</h1>
+      </div>
+      <div class="box-data-holder">
+      <div class="box-data">
+        <div class="box-data-left">
+          <p>There are many variations of passages of lorem Ipsum available, but majority have suffered alteration in some form.</p>
+          <div class="double-list">
+          <ul>
+            <li>Cancer Screening</li>
+            <li>Oral Hygiene</li>
+            <li>Dental Cleaning</li>
+            <li>Cavity Detection</li>
+            <li>Digital X-Rays</li>
+          </ul>
+          <ul>
+            <li>Sensetivity Testing</li>
+            <li>Tooth Decay</li>
+            <li>Oral Examination</li>
+            <li>Tartar Removal</li>
+            <li>Paronamic X-Rays</li>
+          </ul>
+          </div>
+        </div>
+        <div class="box-data-right">
+          <div class="box-img"></div>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+    <hr>
+
+    <div class="box">
+      <div class="box-title">
+        <h1>05. Teeth Braces</h1>
+      </div>
+      <div class="box-data-holder">
+      <div class="box-data">
+        <div class="box-data-left">
+          <p>There are many variations of passages of lorem Ipsum available, but majority have suffered alteration in some form.</p>
+          <div class="double-list">
+          <ul>
+            <li>Cancer Screening</li>
+            <li>Oral Hygiene</li>
+            <li>Dental Cleaning</li>
+            <li>Cavity Detection</li>
+            <li>Digital X-Rays</li>
+          </ul>
+          <ul>
+            <li>Sensetivity Testing</li>
+            <li>Tooth Decay</li>
+            <li>Oral Examination</li>
+            <li>Tartar Removal</li>
+            <li>Paronamic X-Rays</li>
+          </ul>
+          </div>
+        </div>
+        <div class="box-data-right">
+          <div class="box-img"></div>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+    <hr>
+
+
+  </div>
+
+
+
+</section>
+
+
 
 
 
