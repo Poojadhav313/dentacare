@@ -83,3 +83,36 @@
 .box:hover .box-data-holder{
   display:block;
 }
+
+/* appointment section */
+
+
+/* marque */
+
+#marquee {
+  height: 200px;
+  width: 100vw; 
+  overflow: hidden;
+  display: flex;
+}
+
+.marquee-content p{
+  font-size: 190px;
+  margin-right: 150px;
+  color: rgba(196, 196, 196, 0.342);
+  font-weight: 300;
+  /* background-color:  rebeccapurple; */
+  white-space: nowrap;                              /* no line breaks */
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0); 
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+

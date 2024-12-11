@@ -200,6 +200,18 @@
 
 </section>
 
+<section id="appointment-section">
+
+</section>
+
+<section id="marquee">
+  <div class="marquee-content">
+    <p>Your Smile, Our Priority</p>
+  </div>
+  <div class="marquee-content">
+    <p>Your Smile, Our Priority</p>
+  </div>
+</section>
 
 
 
