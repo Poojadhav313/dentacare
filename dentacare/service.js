@@ -20,7 +20,7 @@ nextBtn.addEventListener('click', nextBtnClick);
 function nextBtnClick()
 {
   const currentSlide = track.querySelector('.current-slide');
-  const nextSlide = currentSlide.nextElementSibling;
+  const nextSlide = currentSlide.nextElementSibling;  
   const amountToMove = nextSlide.offsetLeft;
   
   track.style.transform = 'translateX(-' + amountToMove + 'px)';

@@ -200,7 +200,19 @@
 
 </section>
 
-<section id="appointment-section"></section>
+<section id="appointment-section">
+  <div id="appointment-left">
+    <h1>Book Your Dental Checkup</h1>
+    <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f51cfc49a9ddbca4877358_Service%20Slider%20One%20Image-p-500.webp" alt="">
+  </div>
+
+  <div id="appointment-right">
+    <p>There are many variations of passages of lorem Ipsum available, but majority have suffered alteration in some form, by injected humour, or randomised words passages of available,</p>
+    <button>Book Appointment</button>
+    <img class="img1" src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f51d0068ba42c0872b2594_Slider%20Large%20Image-p-800.webp" alt="">
+    <img class="img2" src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fa3a4f9274be0e6e0b3cda_About%20Experience%20Left-p-500.avif" alt="">
+  </div>
+</section>
 
 <section id="marquee">
   <div class="marquee-content">
@@ -244,10 +256,6 @@
 
 </section>
 
-
-
-
-<div class="space" style="height: 500px;"></div>
 
 <script src="service.js"></script>
 
