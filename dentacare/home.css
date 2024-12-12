@@ -1,0 +1,55 @@
+/* home banner section */
+
+#home-banner-section{
+  height: 510px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 100%;
+  background: linear-gradient(rgba(24, 24, 24, 0.5), rgba(24, 24, 24, 0.5)),url(https://img.freepik.com/free-photo/beautiful-girl-sitting-dentist-s-office_1157-19475.jpg?t=st=1734004506~exp=1734008106~hmac=23dc2ee76c7d7db62c9ca183447c8105ec01db52ecb57c68605120170aa36702&w=740);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 1s ease;
+  color: #fff
+}
+
+.banner-box{
+  border: 1px solid rgba(128, 128, 128, 0.37);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 0 20px;
+  transition: 0.3s ease;
+}
+
+.banner-box:hover{
+  background-color: rgba(255, 255, 255, 0.144);
+}
+
+.banner-box > *{
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+.banner-box-left p{
+  padding: 30px 0 0 0;
+  text-transform: uppercase;
+}
+
+.banner-box-right p{
+  padding: 15px;
+  font-size: 20px;
+  border: 1px solid rgba(238, 238, 238, 0.185);
+  border-radius: 50%;
+  margin-bottom: calc(100% - 30px);
+}
+
+/* hover background change */
+
+.banner-box:hover > .banner-box-right p{
+  background-color: #fff;
+  color: #000;
+}
