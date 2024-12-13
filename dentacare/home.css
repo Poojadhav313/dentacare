@@ -224,7 +224,6 @@ hr{
 
 /* appointment section */
 #appointment-section{
-  border: 1px solid magenta;
   height: 1200px;
   position: relative;
   background-color: rgba(88, 88, 255, 0.048);
@@ -313,4 +312,20 @@ hr{
   left: -100px;
   height: 250px;
   width: 350px;
+}
+
+/* maquee section */
+#marquee{
+  height: 120px;
+  width: 150vw;
+  background-color: var(--blue);
+  align-items: center;
+}
+
+.marquee-content p{
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-right: 30px;
 }

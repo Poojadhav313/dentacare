@@ -214,7 +214,7 @@
   </div>
 </section>
 
-<section id="marquee">
+<section id="marquee-section">
   <div class="marquee-content">
     <p>Your Smile, Our Priority</p>
   </div>
@@ -257,6 +257,6 @@
 </section>
 
 
-<script src="service.js"></script>
+<script src="testimonial.js"></script>
 
 <?php include('footer.html') ?>

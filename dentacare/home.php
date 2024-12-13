@@ -163,7 +163,17 @@
     <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66e93b67500490e36c30e66b_Mask%20group%20(63)-p-500.webp" alt="" class="img3">
   </section>
 
-
+  <section id="marquee-section">
+    <div class="marquee-content">
+      <p>* Creating Brighter Smiles Every Day  * </p>
+    </div>
+    <div class="marquee-content">
+      <p>Trusted Care for Your Best Smile  * </p>
+    </div>
+    <div class="marquee-content">
+      <p>Your Partner in Oral Health  * </p>
+    </div>
+</section>
 
 
 
