@@ -228,8 +228,8 @@
 <section id="testimonial-section">
   <h1 class="heading">Testimonials</h1>
   <div id="testimonial-arrows">
-    <button id="prev-btn"> < - </button>
-    <button id="next-btn"> - > </button>
+    <button id="prev-btn"> &#8593; </button>
+    <button id="next-btn"> &#8595; </button>
   </div>
   
   <div id="slider-container">
@@ -248,8 +248,8 @@
     <div class="testimonial-data">
       <h1>Fantastic</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nemo praesentium ut omnis! Enim, asperiores quasi eius amet nemo quia unde repudiandae dolor eaque voluptatem.</p>
-      <h1>Sonia Miller</h1>
-      <p class="post">Surgery expert</p>
+      <h1>Kian Pugh</h1>
+      <p class="post">orthodontist</p>
     </div>
   </div>
   </div>

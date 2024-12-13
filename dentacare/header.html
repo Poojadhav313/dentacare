@@ -450,15 +450,34 @@ hr{
   gap: 15px
 }
 
+.testimonial-data > .post{
+  text-transform: uppercase;
+}
+
 #testimonial-arrows{
   position: absolute;
-  top: 220px;
-  right: 100px;
+  top: 180px;
+  right: 150px;
   transition: transform 5s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
 }
 
 #testimonial-arrows button{
-  margin: 20px 0 ;
+  margin: 50px 0 ;
+  background-color: transparent;
+  font-size: 30px;
+  border: none;
+  margin: 1px 0;
+  padding: 10px 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#slider-container > *:not(.current-slide){
+  opacity: 0;
 }
 
 /* slider */

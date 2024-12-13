@@ -15,12 +15,15 @@ slides[1].style.left = slideWidth + "px";
 /////next btn
 nextBtn.addEventListener('click', nextBtnClick);
 
-
-
 function nextBtnClick()
 {
   const currentSlide = track.querySelector('.current-slide');
-  const nextSlide = currentSlide.nextElementSibling;  
+  var nextSlide = currentSlide.nextElementSibling;  
+
+  if (!nextSlide){
+    nextSlide = track.firstElementChild;
+  }
+
   const amountToMove = nextSlide.offsetLeft;
   
   track.style.transform = 'translateX(-' + amountToMove + 'px)';
@@ -34,7 +37,12 @@ prevBtn.addEventListener('click', prevBtnClick);
 function prevBtnClick()
 {
   const currentSlide = track.querySelector('.current-slide');
-  const prevSlide = currentSlide.previousElementSibling;
+  var prevSlide = currentSlide.previousElementSibling;
+
+  if (!prevSlide){
+    prevSlide = track.lastElementChild;
+  }
+
   const amountToMove = prevSlide.offsetLeft;
 
   track.style.transform = 'translateX(-' + amountToMove + 'px)';

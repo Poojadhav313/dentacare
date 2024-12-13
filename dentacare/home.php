@@ -173,11 +173,42 @@
     <div class="marquee-content">
       <p>Your Partner in Oral Health  * </p>
     </div>
+  </section>
+
+<section id="testimonial-section">
+  <h1 class="heading">Testimonials</h1>
+  <div id="testimonial-arrows">
+    <button id="prev-btn"> &#8593; </button>
+    <button id="next-btn"> &#8595; </button>
+  </div>
+  
+  <div id="slider-container">
+  <div class="testimonial-box current-slide">
+    <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66e91ea3ebb36835c2f8da51_Testimonials%20Image-p-500.webp" alt="">
+    <div class="testimonial-data">
+      <h1>Fantastic</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nemo praesentium ut omnis! Enim, asperiores quasi eius amet nemo quia unde repudiandae dolor eaque voluptatem.</p>
+      <h1>Sonia Miller</h1>
+      <p class="post">Surgery expert</p>
+    </div>
+  </div>
+
+  <div class="testimonial-box">
+    <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66ecf8f18a943ad491737d11_Testimonials%20Image%20Two-p-500.webp" alt="">
+    <div class="testimonial-data">
+      <h1>Fantastic</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nemo praesentium ut omnis! Enim, asperiores quasi eius amet nemo quia unde repudiandae dolor eaque voluptatem.</p>
+      <h1>Kian Pugh</h1>
+      <p class="post">orthodontist</p>
+    </div>
+  </div>
+  </div>
+
 </section>
 
 
 
-<div class="space" style="height:500px"></div>
+<script src="testimonial.js"></script>
 
 <script src="home.js"></script>
 
