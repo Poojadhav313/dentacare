@@ -323,16 +323,59 @@ hr{
 }
 
 .marquee-content p{
-  color: #fff;
+  color: var(--blue);
+  /* color: #fff; */
   font-size: 50px;
   font-weight: 400;
   text-transform: capitalize;
   margin-right: 30px;
 }
 
+/* video section */
+#video-section{
+  height: 100vh;
+  margin-top: -80px;
+  position: relative;
+  /* box-shadow: inset 1px 0 1px 1px black; */
+}
+
+#video-section > video{
+  height: 130%;
+}
+
+#video-section > #vid-btn-container{
+  position: absolute;
+  top: calc(50%);
+  left: calc(1.5%);
+  padding: 20px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#video-section > #vid-btn-container > #video-btn{
+  font-size: 20px;
+  padding: 30px 35px;
+  color: var(--blue);
+  background-color: #fff;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+#vid-hr{
+  position: absolute;
+  left: 6%;
+  top: 0px;
+  height: calc(130%);
+  border: 1px solid #ffffff59;
+  z-index: 1;
+}
+
 /* service section */
 #service-section{
-  margin-top: -100px;
+  margin-top: 300px;
   text-align: center;
 }
 
