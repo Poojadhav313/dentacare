@@ -78,7 +78,73 @@
   </section>
 
 
+  <section id="service-scroll-section">
+    <h1>Achieve Peak Oral Health with Our Expert Dental Checkups</h1>
+    <div id="scroll-container">
+      <div class="box">
+        <p>Impacts</p>
+        <hr>
+        <h3>Dental Impacts</h3>
+      </div>
 
+      <div class="box">
+        <p>Impacts</p>
+        <hr>
+        <h3>Dental Impacts</h3>
+      </div>
+
+      <div class="box">
+        <p>Impacts</p>
+        <hr>
+        <h3>Dental Impacts</h3>
+      </div>
+
+      <div class="box">
+        <p>Impacts</p>
+        <hr>
+        <h3>Dental Impacts</h3>
+      </div>
+      
+      <div class="box">
+        <p>Impacts</p>
+        <hr>
+        <h3>Dental Impacts</h3>
+      </div>
+
+      <div class="box">
+        <p>Impacts</p>
+        <hr>
+        <h3>Dental Impacts</h3>
+      </div>
+      
+      <div class="box">
+        <p>Impacts</p>
+        <hr>
+        <h3>Dental Impacts</h3>
+      </div>
+
+      <div class="box">
+        <p>Impacts</p>
+        <hr>
+        <h3>Dental Impacts</h3>
+      </div>
+
+      <div class="box">
+        <p>Impacts</p>
+        <hr>
+        <h3>Dental Impacts</h3>
+      </div>
+
+      <div class="box">
+        <p>Impacts</p>
+        <hr>
+        <h3>Dental Impacts</h3>
+      </div>
+
+    </div>
+
+    <button class="btn">View More Service</button>
+  </section>
 
 
 

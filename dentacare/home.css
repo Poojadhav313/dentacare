@@ -127,7 +127,7 @@ hr{
   margin-left: 200px;
 }
 
-#buttons button{
+#buttons button, .btn{
   color: #fff;
   padding: 25px 50px;
   background-color: var(--blue);
@@ -157,3 +157,67 @@ hr{
   background-color: #fff;
 }
 
+/* service scroll section */
+#service-scroll-section{
+  padding-bottom: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+#service-scroll-section h1{
+  font-size: 40px;
+  text-align: center;
+}
+
+#scroll-container{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+  gap: 30px;
+  height: 100%;
+}
+
+.box{
+  border: 1px solid rgb(21, 128, 0);
+  padding: 0 170px;
+  height: 600px;
+  align-self: flex-end;
+  color: #fff;
+  background-image: url(https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/67176c192eba913f9966334f_Service%20Three%20Small-p-500.webp);
+  /* animation: servicescroll 25s infinite; */
+}
+
+@keyframes servicescroll{
+  0%
+  {
+    transform: translateX(0);
+  }
+  10%
+  {
+    animation-delay: 2s;
+    transform: translateX(-100px);
+  }
+  20%
+  {
+    animation-timing-function:unset;
+    transform: translateX(-200px);
+  }
+  30%
+  {
+    animation-timing-function:linear;
+    transform: translateX(-300px);
+  }
+  40%
+  {
+    animation-timing-function:linear;
+    transform: translateX(-400px);
+  }
+  50%
+  {
+    animation-timing-function:linear;
+    transform: translateX(-500px);
+  }
+}
