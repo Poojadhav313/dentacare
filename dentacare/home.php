@@ -146,7 +146,22 @@
     <button class="btn">View More Service</button>
   </section>
 
+  <section id="appointment-section">
+    <h1>Book Your Appointment Online for Convenient Dental Care</h1>
+    <div class="border-box-1"></div>
+    <div class="border-box-2"></div>
 
+    <div id="appointment-box">
+      <h1>Book Your Dental Checkup</h1>
+      <p>There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration</p>
+      <button class="btn">Book Consultation</button>
+      <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66ed4e3cecf200cb7c937f25_Equipment%20Image.webp" alt="" class="img4">
+    </div>
+
+    <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66e93b69199ae920d38d8138_Mask%20group%20(65)-p-800.webp" alt="" class="img1">
+    <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66e95c5e270fbae4deb61f7c_Appointment%20Top%20Image-p-500.webp" alt="" class="img2">
+    <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66e93b67500490e36c30e66b_Mask%20group%20(63)-p-500.webp" alt="" class="img3">
+  </section>
 
 
 
