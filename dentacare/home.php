@@ -175,6 +175,44 @@
     </div>
   </section>
 
+  <section id="service-section">
+  <h1>Discover Comprehensive Dental Services for Every Smile</h1>
+  <p>Lorem ipsum dolor sit amet consectetur. Magna turpis integer tortor et sem egestas. Tortor eu quis quam sit massa rhoncus vulputate eu fusce. At ipsum tempor cras.</p>
+  <div id="service-box">
+    <div id="service-box-left">
+      <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/67209945b670001f82368848_Home%20One%20Smile%20Image-p-800.webp" alt="">
+    </div>
+    <div id="service-box-right">
+      <div class="service-box">
+        <h2>Smile Makeovers</h2>
+        <p> &#8594; </p>
+      </div>
+      
+      <div class="service-box">
+        <h2>Wisdom Teeth Removal</h2>
+        <p> &#8594; </p>
+      </div>
+
+      <div class="service-box">
+        <h2>Crowns and Bridges</h2>
+        <p> &#8594; </p>
+      </div>
+
+      <div class="service-box">
+        <h2>Digital X-Rays</h2>
+        <p> &#8594; </p>
+      </div>
+      
+      <div class="service-box">
+        <h2>Gum Health Evaluation</h2>
+        <p> &#8594; </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 <section id="testimonial-section">
   <h1 class="heading">Testimonials</h1>
   <div id="testimonial-arrows">
