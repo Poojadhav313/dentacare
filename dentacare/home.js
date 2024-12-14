@@ -12,7 +12,7 @@ var arrow4 = document.getElementById('arrow-4');
 
 
 box1.addEventListener('mouseenter', () => {
-  arrow1.innerHTML = '->';
+  arrow1.innerHTML = '&#8594;';
 })
 
 box1.addEventListener('mouseleave', () => {
@@ -26,7 +26,7 @@ box2.addEventListener('mouseenter', () => {
   bannerSection.style.backgroundPosition = "center";
   //bannerSection.style.transform = "scale(1.1)";
 
-  arrow2.innerHTML = '->';
+  arrow2.innerHTML = '&#8594;';
 });
 
 box2.addEventListener('mouseleave', () => {
@@ -41,7 +41,7 @@ box3.addEventListener('mouseenter', () => {
   bannerSection.style.backgroundSize = "cover";
   bannerSection.style.backgroundPosition = "center";
 
-  arrow3.innerHTML = '->';
+  arrow3.innerHTML = '&#8594;';
 });
 
 box3.addEventListener('mouseleave', () => {
@@ -55,7 +55,7 @@ box4.addEventListener('mouseenter', () => {
   bannerSection.style.backgroundSize = "cover";
   bannerSection.style.backgroundPosition = "center";
   
-  arrow4.innerHTML = '->';
+  arrow4.innerHTML = '&#8594;';
 });
 
 box4.addEventListener('mouseleave', () => {

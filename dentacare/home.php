@@ -15,7 +15,7 @@
         <p>Hygiene maintain</p>
       </div>
       <div class="banner-box-right">
-        <p id="arrow-1">01</p>
+        <a href="service.php"><p id="arrow-1">01</p></a>
       </div>
     </div>
 
@@ -25,7 +25,7 @@
         <p>Dental Crown</p>
       </div>
       <div class="banner-box-right">
-        <p id="arrow-2">02</p>
+        <a href="service.php"><p id="arrow-2">02</p></a>
       </div>
     </div>
 
@@ -35,7 +35,7 @@
         <p>Fixed Braces</p>
       </div>
       <div class="banner-box-right">
-        <p id="arrow-3">03</p>
+        <a href="service.php"><p id="arrow-3">03</p></a>
       </div>
     </div>
 
@@ -45,7 +45,7 @@
         <p>Dental Bridges</p>
       </div>
       <div class="banner-box-right">
-        <p id="arrow-4">04</p>
+        <a href="service.php"><p id="arrow-4">04</p></a>
       </div>
     </div>
   </section>
@@ -71,8 +71,8 @@
       </div>
       <h3>“Our goal is to equip you with the essential resources and guidance to transform your business idea into reality”</h3>
       <div id="buttons">
-        <button>Book Consultation</button>
-        <button>More About Doctors</button>
+        <a href="contact.php"><button>Book Consultation</button></a>
+        <a href="about.php"><button>More About Doctors</button></a>
       </div>
     </div>
   </section>
@@ -143,7 +143,7 @@
 
     </div>
 
-    <button class="btn">View More Service</button>
+    <a href="service.php"><button class="btn">View More Service</button></a>
   </section>
 
   <section id="appointment-section">
@@ -154,7 +154,7 @@
     <div id="appointment-box">
       <h1>Book Your Dental Checkup</h1>
       <p>There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration</p>
-      <button class="btn">Book Consultation</button>
+      <a href="contact.php"><button class="btn">Book Consultation</button></a>
       <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66ed4e3cecf200cb7c937f25_Equipment%20Image.webp" alt="" class="img4">
     </div>
 
@@ -189,30 +189,40 @@
         <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/67209945b670001f82368848_Home%20One%20Smile%20Image-p-800.webp" alt="">
       </div>
       <div id="service-box-right">
+        <a href="service.php">
         <div class="service-box">
           <h2>Smile Makeovers</h2>
           <p> &#8594; </p>
         </div>
+        </a>
         
+        <a href="service.php">
         <div class="service-box">
           <h2>Wisdom Teeth Removal</h2>
           <p> &#8594; </p>
         </div>
+        </a>
 
+        <a href="service.php">
         <div class="service-box">
           <h2>Crowns and Bridges</h2>
           <p> &#8594; </p>
         </div>
+        </a>
 
+        <a href="service.php">
         <div class="service-box">
           <h2>Digital X-Rays</h2>
           <p> &#8594; </p>
         </div>
+        </a>
         
+        <a href="service.php">
         <div class="service-box">
           <h2>Gum Health Evaluation</h2>
           <p> &#8594; </p>
         </div>
+        </a>
 
       </div>
     </div>
