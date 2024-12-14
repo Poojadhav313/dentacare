@@ -166,6 +166,72 @@
   color: #fff;
 }
 
+/* testimonial section */
+#about-testimonial-section{
+  margin-top: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+#about-testimonial-top img{
+  height: 200px;
+  aspect-ratio: 1;
+  margin-bottom: 300px;
+  border-radius: 50%;
+}
+
+#about-testimonial-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;    /* not workingggggggggggg */
+  margin: 0 20px;
+  gap: 50px;
+  border: 1px solid rebeccapurple
+}
+
+#slider-container > .about-testimonial-box{
+  text-align: center;
+  border-left: 1px solid var(--grey);
+  border-right: 1px solid var(--grey);
+}
+
+#slider-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-testimonial-data > *{
+  padding: 10px 0;
+}
+
+.about-testimonial-data > p{
+  font-weight: 400;
+  color: var(--grey);
+}
+  
+.about-testimonial-data > .post{
+  color: var(--blue);
+  text-transform: uppercase;
+}
+
+.about-testimonial-arrows button{
+  font-size: 15px;
+  text-decoration: underline;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 20px;
+  width: auto;
+}
+
+#testimonial-arrows{
+  position: relative;
+}
+
 
 /* footer changes */
 

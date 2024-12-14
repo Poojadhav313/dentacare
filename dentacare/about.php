@@ -146,9 +146,46 @@
     <div id="vid-hr"></div>
   </section>
 
+  <section id="about-testimonial-section">
+    <div id="about-testimonial-top">
+      <img src="https://img.freepik.com/free-photo/dentists-holding-dental-tools_107420-65564.jpg?t=st=1734162563~exp=1734166163~hmac=8dbb065595dd4032f7958fbd7604ae9db6d372ce282d79c3d658b46a8e153444&w=360" alt="">
+    </div>
 
-  <div class="space" style="height: 500px;"></div>
+    <div id="about-testimonial-bottom">
+      <div class="about-testimonial-arrows">
+        <button id="prev-btn"> PREV </button>
+      </div>
+
+      <div id="slider-container">
+        <div class="about-testimonial-box current-slide">
+          <div class="about-testimonial-data">
+            <h1>Hassel Free Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nemo praesentium ut omnis! Enim, asperiores quasi eius amet nemo quia unde repudiandae dolor eaque voluptatem.</p>
+            <h1>Kristie Erbe</h1>
+            <p class="post">Orthodontist</p>
+          </div>
+        </div>
+
+        <div class="about-testimonial-box">
+          <div class="about-testimonial-data">
+          <h1>Fantastic</h1>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nemo praesentium ut omnis! Enim, asperiores quasi eius amet nemo quia unde repudiandae dolor eaque voluptatem.</p>
+          <h1>Sonia Miller</h1>
+          <p class="post">Surgery expert</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="about-testimonial-arrows">
+        <button id="next-btn"> NEXT </button>
+      </div>
+
+    </div>
+  </section>
+
 
 <script src="video.js"></script>
+<script src="testimonial.js"></script>
 
 <?php include('footer.html'); ?>
