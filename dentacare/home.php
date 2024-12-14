@@ -265,5 +265,6 @@
 <script src="testimonial.js"></script>
 
 <script src="home.js"></script>
+<script src="video.js"></script>
 
 <?php include('footer.html'); ?>

@@ -156,6 +156,17 @@
   font-size: 14px;
 }
 
+/* video section */
+#video-section h3{
+  position: absolute;
+  top: calc(50%);
+  left: calc(13%);
+  font-size: 40px;
+  width: 60%;
+  color: #fff;
+}
+
+
 /* footer changes */
 
 footer{

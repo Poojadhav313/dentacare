@@ -137,7 +137,18 @@
     </div>
   </section>
 
+  <section id="video-section">
+    <video id = "vid" src="https://videocdn.cdnpk.net/videos/4df30409-3af4-4d02-99de-ccadb4774512/horizontal/previews/watermarked/large.mp4" autoplay loop></video>
+    <div id="vid-btn-container">    
+      <button id="video-btn">||</button>    
+    </div>
+    <h3>Book Your Appointment Online for Convenient Dental Care</h3>
+    <div id="vid-hr"></div>
+  </section>
+
 
   <div class="space" style="height: 500px;"></div>
+
+<script src="video.js"></script>
 
 <?php include('footer.html'); ?>
