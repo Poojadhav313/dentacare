@@ -3,6 +3,107 @@
   background-image: url(https://img.freepik.com/premium-photo/doctor-wearing-blue-medical-gloves-holding-surgical-cloth-pincers-towel-clamps-are-mounting-clamps_1030522-64.jpg?w=740);
 }
 
+/* marquee section */
+#marquee-section{
+  margin-bottom: 50px;
+}
+
+
+/* main section */
+#hover-section{
+  margin-top: 100px;
+}
+
+#section-title p{
+  font-size: 15px;
+  padding-top: 10px;
+  color: var(--blue);
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+#hover-section > a{
+  color: #000;
+  text-decoration: none;
+}
+
+#hover-section > a > div{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 40px 0px;
+  border-bottom: 1px dashed #86868675;
+  width: 105%;
+  margin-left: -120px;
+  position: relative;
+}
+
+.hover-section{
+  cursor: pointer;
+  height: 40px;
+  width: 100%;
+}
+
+.hover-section h1{
+  margin: 0 0 0 150px;
+  font-size: 40px;
+}
+
+#hover-section .img{
+  position: absolute;
+  height: 250px;
+  width: 450px;
+  box-shadow: 15px 15px rgba(150, 150, 216, 0.158);
+  opacity: 0;
+  right: 120px;
+  /* top: 130px; */
+  top: calc(0% - 50px);       /*  workingggggggggggggggggg */
+  transition: 0.2s ease;
+  background-position: center;
+}
+
+#section1 > .img{
+  background-image: url(https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/67209cc700921826d8490be7_Smile%20Makeover%20About%201-p-500.webp);
+}
+
+#section2 > .img{
+  background-image: url(https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f63e7678d9bf36e6f0a722_Banner%20Image%20Home%20Three-p-500.webp);
+}
+
+#section3 > .img{
+  background-image: url(https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f15ab72b2c2bbd99e3ba4b_Video%20image-p-1080.webp);
+}
+
+#section4 > .img{
+  background-image: url(https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f63e7678d9bf36e6f0a722_Banner%20Image%20Home%20Three-p-500.webp);
+}
+
+#section5 > .img{
+  background-image: url(https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f11443324c4f9afb4a0d30_pexels-olly-3779706%201-p-1080.webp);
+}
+
+#hover-section > a > div > .arrow{
+  position: absolute;
+  padding: 25px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 50%;
+  top: calc(0% + 30px);
+  right: -40px;
+  transition: 0.2s ease;
+}
+
+/* show img when hover */
+
+#hover-section > a > div > .hover-section:hover + .img{
+  opacity: 1;
+}
+
+#hover-section > a > div > .hover-section:hover + .arrow{
+  background-color: rgba(4, 0, 255, 0.87);
+  color: #fff;
+}
 
 /* footer changes */
 
