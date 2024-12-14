@@ -1,0 +1,23 @@
+/* banner section */
+#banner-section{
+  background-image: url(https://img.freepik.com/premium-photo/doctor-wearing-blue-medical-gloves-holding-surgical-cloth-pincers-towel-clamps-are-mounting-clamps_1030522-64.jpg?w=740);
+}
+
+
+/* footer changes */
+
+footer{
+  background-color: rgb(0, 0, 53);
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer a{
+  color: #fff;
+  transition: 0.2s ease;
+}
+
+footer a:hover{
+  color: var(--blue);
+}
