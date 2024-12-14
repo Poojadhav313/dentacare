@@ -90,6 +90,7 @@ header a{
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+  transition: 0.5s ease;
 }
 
 
@@ -584,7 +585,7 @@ hr{
     <p><span id="sobtn">  Special Offer</span>Healthy Smiles for a Healthy Life - <span class="underline-text">Book an Appointment!</span></p>
   </div>
 
-  <nav class="navbar">
+  <nav class="navbar" id="nav">
   <a class="nav-title" href="#">
     <img src="data:image/svg+xml;charset=utf-8;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjM4IiB2aWV3Qm94PSIwIDAgMjAwIDM4IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfMTQ0XzUzNCkiPgo8cGF0aCBkPSJNMTguNjc4NSAzNy4zMjE5QzI4LjkyNDMgMzcuMzIxOSAzNy4yMzAxIDI5LjAxNjEgMzcuMjMwMSAxOC43NzAzQzM3LjIzMDEgOC41MjQ1OCAyOC45MjQzIDAuMjE4NzUgMTguNjc4NSAwLjIxODc1QzguNDMyNzggMC4yMTg3NSAwLjEyNjk1MyA4LjUyNDU4IDAuMTI2OTUzIDE4Ljc3MDNDMC4xMjY5NTMgMjkuMDE2MSA4LjQzMjc4IDM3LjMyMTkgMTguNjc4NSAzNy4zMjE5WiIgZmlsbD0iIzM4NEJGOCIvPgo8cGF0aCBkPSJNMTQuNjk5IDkuMDA1NDVDOC44NDA5NCA4LjM0NDA3IDguMjQ1ODkgMTMuODg5OSA4LjY4MDYgMTYuNzQ1NEM4LjY2NzEyIDE2Ljc2MjIgOC43ODA0NiAxNi41NzYyIDguODM4ODIgMTYuNDgxQzkuOTgyNTYgMTQuOTg0OSAxMi43OTEgMTUuNDU4NyAxMy45NTc0IDE1Ljg0MzRDMjAuMDM2NCAxOC4xMjg2IDIyLjA2MDYgMjYuNzQwNyAyMi40ODcgMjcuOTU1M0MyMi44MjgyIDI4LjkyNzEgMjMuNDUyNiAyOC42MzE3IDIzLjcyMjEgMjguMzYyNkMyOS40ODk4IDIyLjQwNTggMjIuMDIxMyA5LjgzMjIgMTQuNjk5IDkuMDA1NDVaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMjcuNjE4NyAxMS4wNTAxQzI1LjIxNzcgNy42NzMxMSAyMS4zODE2IDkuMDQ1ODkgMTkuNzYzNyAxMC4xNTQ0QzI1Ljg3NjMgMTQuMTgyOSAyNy4xMDggMjAuNDY2IDI2Ljk1OTkgMjMuMTAzOUMyOC4xNzk4IDIwLjQ5MzEgMzAuMDE5NiAxNC40MjcyIDI3LjYxODcgMTEuMDUwMVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0xMC43NzcxIDE2LjU4NTFDMTQuMzgyMSAxNS44NjQxIDE3LjcyOTYgMTkuODc1NCAxOC45NTI3IDIxLjk3MTFDMTkuMDM1MyAyMi4yMTE0IDE4LjQzNzUgMjIuMDI4NCAxNy45Mjk5IDIyLjIyNjRDMTcuNTIzOSAyMi4zODQ3IDE3LjA4OTMgMjIuNzYxOCAxNi45MjI3IDIyLjkzMDVDMTYuMjAxNSAyMy42MjQgMTUuNDE5OSAyNi41MTk3IDE0Ljc3OTkgMjcuOTg0N0MxNC4yNjc5IDI5LjE1NjggMTMuNDQzMSAyOC40MTI0IDEzLjA5NDcgMjcuODkzN0MxMC44MiAyNC40MjQ2IDcuMTcyMDcgMTcuMzA2MiAxMC43NzcxIDE2LjU4NTFaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNTUuMjE4NiAyOS40NDM4SDQ3LjY1ODJWOC4xNjA0NEg1NS4yMTg2QzYxLjc5NDIgOC4xNjA0NCA2NS45ODczIDEyLjIyNjUgNjUuOTg3MyAxOC44MDIxQzY1Ljk4NzMgMjUuMzc3OCA2MS43OTQyIDI5LjQ0MzggNTUuMjE4NiAyOS40NDM4Wk01NS4yMTg2IDExLjI0MThINTEuMDg5VjI2LjM2MjVINTUuMjE4NkM2MC4zMDEyIDI2LjM2MjUgNjIuMzM0MiAyNC4yNjU5IDYyLjMzNDIgMTguODAyMUM2Mi4zMzQyIDEzLjMzODQgNjAuMzAxMiAxMS4yNDE4IDU1LjIxODYgMTEuMjQxOFpNNzUuNzQgMjkuNzYxNUM3MC41MzA0IDI5Ljc2MTUgNjguMDg0NCAyNi40NTc4IDY4LjA4NDQgMjEuNTM0QzY4LjA4NDQgMTYuNjQyIDcxLjAwNjkgMTMuMzM4NCA3NS43MDgzIDEzLjMzODRDNzkuOTY0OSAxMy4zMzg0IDgyLjk1MSAxNS44Nzk3IDgyLjk1MSAyMC4xOTk5QzgyLjk1MSAyMS4wMjU4IDgyLjg1NTcgMjEuODgzNSA4Mi43NjA0IDIyLjM2SDcxLjI5MjhDNzEuNDE5OCAyNS4yNTA3IDcyLjQ2ODEgMjYuNzExOSA3NS43NzE4IDI2LjcxMTlDNzguNDA4NCAyNi43MTE5IDc5LjQyNDkgMjUuODIyNSA3OS40MjQ5IDI0LjM5M1YyNC4xMzg5SDgyLjgyMzlWMjQuNDI0OEM4Mi44MjM5IDI3LjY2NDkgNzkuOTk2NyAyOS43NjE1IDc1Ljc0IDI5Ljc2MTVaTTc1LjY0NDcgMTYuMjI5MUM3Mi42NTg3IDE2LjIyOTEgNzEuNTE1MSAxNy42MjY4IDcxLjMyNDUgMjAuMDcyOEg3OS42NzlDNzkuODA2MSAxNy4zNzI3IDc4LjM0NDkgMTYuMjI5MSA3NS42NDQ3IDE2LjIyOTFaTTg5LjExOTMgMjkuNDQzOEg4NS42ODg2VjEzLjY1Nkg4OC44MzM0VjE2LjYxMDNIODguOTYwNUM4OS42OTExIDE0LjkyNjcgOTEuMzc0NyAxMy4zMzg0IDk0LjQ1NiAxMy4zMzg0Qzk4LjU1MzkgMTMuMzM4NCAxMDAuMzk2IDE1Ljk0MzIgMTAwLjM5NiAxOS41MzI4VjI5LjQ0MzhIOTYuOTY1NlYyMC4yOTUyQzk2Ljk2NTYgMTcuNDY4IDk2LjA3NjEgMTYuMjkyNiA5My4xODU0IDE2LjI5MjZDOTAuMzkgMTYuMjkyNiA4OS4xMTkzIDE3LjM3MjcgODkuMTE5MyAyMC4zMjY5VjI5LjQ0MzhaTTExMC4xMDIgMjkuNDQzOEMxMDYuNTc2IDI5LjQ0MzggMTA0LjczNCAyOC4xNDE0IDEwNC43MzQgMjQuNTgzNlYxNi41MTVIMTAyLjA5N1YxMy42NTZIMTA0Ljc5N0wxMDUuNTI4IDkuNzQ4NzRIMTA4LjE2NVYxMy42NTZIMTEyLjkyOVYxNi41MTVIMTA4LjE2NVYyNC40MjQ4QzEwOC4xNjUgMjYuMDc2NiAxMDguODYzIDI2LjM2MjUgMTEwLjk5MiAyNi4zNjI1SDExMi45MjlWMjkuMTU3OUMxMTIuMjYyIDI5LjMxNjggMTExLjE4MiAyOS40NDM4IDExMC4xMDIgMjkuNDQzOFpNMTE5LjUxIDI5Ljc2MTVDMTE2LjY4MyAyOS43NjE1IDExNC40OTEgMjguMzAwMiAxMTQuNDkxIDI1LjUzNjZDMTE0LjQ5MSAyMi45MzE4IDExNi4zOTcgMjEuNTY1OCAxMTkuNzY0IDIxLjA4OTNMMTI1LjI5MiAyMC4yNjM0VjE5LjQwNTdDMTI1LjI5MiAxNy4wNTUgMTI0LjIxMiAxNi4zNTYyIDEyMS43MzQgMTYuMzU2MkMxMTkuMjI0IDE2LjM1NjIgMTE4LjI0IDE3LjE1MDMgMTE4LjI0IDE5LjI0NjlWMTkuNzIzNEgxMTQuOTM2VjE5LjQwNTdDMTE0LjkzNiAxNS44Nzk3IDExNy43IDEzLjMzODQgMTIxLjkyNSAxMy4zMzg0QzEyNi4zNCAxMy4zMzg0IDEyOC41NjQgMTYuMDA2NyAxMjguNTY0IDE5Ljg1MDRWMjkuNDQzOEgxMjUuMzg3VjI2Ljk2NjFIMTI1LjIyOEMxMjQuMzA3IDI4LjQ1OTEgMTIyLjQ5NiAyOS43NjE1IDExOS41MSAyOS43NjE1Wk0xMTcuODI3IDI1LjI4MjVDMTE3LjgyNyAyNi41MjEzIDExOC42MjEgMjcuMDI5NiAxMjAuNjIyIDI3LjAyOTZDMTIyLjg0NiAyNy4wMjk2IDEyNS4yOTIgMjYuMTQwMSAxMjUuMjkyIDIyLjk2MzVWMjIuNjc3NkwxMjAuMjczIDIzLjQ0QzExOC40NjIgMjMuNjk0MSAxMTcuODI3IDI0LjEwNzEgMTE3LjgyNyAyNS4yODI1Wk0xNDEuMjUxIDI5Ljc2MTVDMTM1LjA1NyAyOS43NjE1IDEzMS4zMDggMjUuNDQxMyAxMzEuMzA4IDE4LjgwMjFDMTMxLjMwOCAxMi4xNjMgMTM1LjA1NyA3Ljg0Mjc3IDE0MS4yNTEgNy44NDI3N0MxNDYuOTY5IDcuODQyNzcgMTUwLjQzMiAxMS4wMTk0IDE1MC40MzIgMTYuMTMzOFYxNi4zMjQ0SDE0Ni43NzlWMTYuMTMzOEMxNDYuNzc5IDEyLjYzOTUgMTQ1LjE1OCAxMS4xNDY1IDE0MS4xNTYgMTEuMTQ2NUMxMzYuNzQgMTEuMTQ2NSAxMzQuOTYyIDEzLjI3NDggMTM0Ljk2MiAxOC44MDIxQzEzNC45NjIgMjQuMzI5NSAxMzYuNzQgMjYuNDU3OCAxNDEuMTU2IDI2LjQ1NzhDMTQ1LjE1OCAyNi40NTc4IDE0Ni43NzkgMjQuOTY0OCAxNDYuNzc5IDIxLjQ3MDVWMjEuMjc5OUgxNTAuNDMyVjIxLjQ3MDVDMTUwLjQzMiAyNi41ODQ5IDE0Ni45NjkgMjkuNzYxNSAxNDEuMjUxIDI5Ljc2MTVaTTE1Ny41NDMgMjkuNzYxNUMxNTQuNzE2IDI5Ljc2MTUgMTUyLjUyNCAyOC4zMDAyIDE1Mi41MjQgMjUuNTM2NkMxNTIuNTI0IDIyLjkzMTggMTU0LjQzIDIxLjU2NTggMTU3Ljc5OCAyMS4wODkzTDE2My4zMjUgMjAuMjYzNFYxOS40MDU3QzE2My4zMjUgMTcuMDU1IDE2Mi4yNDUgMTYuMzU2MiAxNTkuNzY3IDE2LjM1NjJDMTU3LjI1OCAxNi4zNTYyIDE1Ni4yNzMgMTcuMTUwMyAxNTYuMjczIDE5LjI0NjlWMTkuNzIzNEgxNTIuOTY5VjE5LjQwNTdDMTUyLjk2OSAxNS44Nzk3IDE1NS43MzMgMTMuMzM4NCAxNTkuOTU4IDEzLjMzODRDMTY0LjM3MyAxMy4zMzg0IDE2Ni41OTcgMTYuMDA2NyAxNjYuNTk3IDE5Ljg1MDRWMjkuNDQzOEgxNjMuNDJWMjYuOTY2MUgxNjMuMjYxQzE2Mi4zNCAyOC40NTkxIDE2MC41MjkgMjkuNzYxNSAxNTcuNTQzIDI5Ljc2MTVaTTE1NS44NiAyNS4yODI1QzE1NS44NiAyNi41MjEzIDE1Ni42NTQgMjcuMDI5NiAxNTguNjU1IDI3LjAyOTZDMTYwLjg3OSAyNy4wMjk2IDE2My4zMjUgMjYuMTQwMSAxNjMuMzI1IDIyLjk2MzVWMjIuNjc3NkwxNTguMzA2IDIzLjQ0QzE1Ni40OTUgMjMuNjk0MSAxNTUuODYgMjQuMTA3MSAxNTUuODYgMjUuMjgyNVpNMTczLjMxMiAyOS40NDM4SDE2OS44ODFWMTMuNTYwN0gxNzMuMDI2VjE2LjA3MDNIMTczLjE4NUMxNzMuODIgMTQuNjA5IDE3NS4yODIgMTMuMzM4NCAxNzcuNjAxIDEzLjMzODRDMTgwLjkwNCAxMy4zMzg0IDE4Mi4xNzUgMTUuNzUyNiAxODIuMTc1IDE4LjcwNjlWMTkuNzU1MUgxNzguNzQ0VjE5LjExOThDMTc4Ljc0NCAxNy4wMjMyIDE3OC4xNDEgMTYuMjYwOSAxNzYuMTM5IDE2LjI2MDlDMTc0LjA3NSAxNi4yNjA5IDE3My4zMTIgMTcuMDU1IDE3My4zMTIgMTkuMTUxNlYyOS40NDM4Wk0xOTEuMzg4IDI5Ljc2MTVDMTg2LjE3OSAyOS43NjE1IDE4My43MzMgMjYuNDU3OCAxODMuNzMzIDIxLjUzNEMxODMuNzMzIDE2LjY0MiAxODYuNjU1IDEzLjMzODQgMTkxLjM1NyAxMy4zMzg0QzE5NS42MTMgMTMuMzM4NCAxOTguNTk5IDE1Ljg3OTcgMTk4LjU5OSAyMC4xOTk5QzE5OC41OTkgMjEuMDI1OCAxOTguNTA0IDIxLjg4MzUgMTk4LjQwOSAyMi4zNkgxODYuOTQxQzE4Ny4wNjggMjUuMjUwNyAxODguMTE3IDI2LjcxMTkgMTkxLjQyIDI2LjcxMTlDMTk0LjA1NyAyNi43MTE5IDE5NS4wNzMgMjUuODIyNSAxOTUuMDczIDI0LjM5M1YyNC4xMzg5SDE5OC40NzJWMjQuNDI0OEMxOTguNDcyIDI3LjY2NDkgMTk1LjY0NSAyOS43NjE1IDE5MS4zODggMjkuNzYxNVpNMTkxLjI5MyAxNi4yMjkxQzE4OC4zMDcgMTYuMjI5MSAxODcuMTY0IDE3LjYyNjggMTg2Ljk3MyAyMC4wNzI4SDE5NS4zMjdDMTk1LjQ1NCAxNy4zNzI3IDE5My45OTMgMTYuMjI5MSAxOTEuMjkzIDE2LjIyOTFaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzE0NF81MzQiPgo8cmVjdCB3aWR0aD0iMjAwIiBoZWlnaHQ9IjM3LjIzIiBmaWxsPSJ3aGl0ZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMC4wMDE5NTMxMiAwLjE0MzU1NSkiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K" alt="Dentacare">
   </a>
@@ -592,64 +593,64 @@ hr{
   <div class="nav-middle">
     <ul class="nav-list">
       <li class="nav-li-item">
-        <a class="nav-link " href="#">Home<span class="sr-only"><</span></a>
+        <a class="nav-link " href="#">Home<span class="sr-only"> &#11167;</span></a>
         <div class="nav-drop">
           <ul>
             <li>
-              <a href="">home one</a>
-              <a href="">home two</a>
-              <a href="">home three</a>
+              <a href="home.php">home one</a>
+              <a href="home.php">home two</a>
+              <a href="home.php">home three</a>
             </li>
           </ul>
         </div>
       </li>
       <li class="nav-li-item">
-      <a class="nav-link " href="#">About us<span class="sr-only"><</span></a>
+      <a class="nav-link " href="#">About us<span class="sr-only"> &#11167;</span></a>
       <div class="nav-drop">
         <ul>
           <li>
-            <a href="">about one</a>
-            <a href="">about two</a>
-            <a href="">about three</a>
+            <a href="about.php">about one</a>
+            <a href="about.php">about two</a>
+            <a href="about.php">about three</a>
           </li>
         </ul>
       </div>
       </li>
       <li class="nav-li-item">
-      <a class="nav-link " href="#">Pages<span class="sr-only"><</span></a>
+      <a class="nav-link " href="#">Pages<span class="sr-only"> &#11167;</span></a>
       <div class="nav-drop">
         <ul>
           <li>
-            <a href="">about one</a>
-            <a href="">about two</a>
-            <a href="">about three</a>
-            <a href="">service one</a>
-            <a href="">service two</a>
+            <a href="about.php">about one</a>
+            <a href="about.php">about two</a>
+            <a href="about.php">about three</a>
+            <a href="service.php">service one</a>
+            <a href="service.php">service two</a>
           </li>
         </ul>
       </div>
       </li>
       <li class="nav-li-item">
-      <a class="nav-link " href="#">Blogs<span class="sr-only"><</span></a>
+      <a class="nav-link " href="#">Blogs<span class="sr-only"> &#11167;</span></a>
       <div class="nav-drop">
         <ul>
           <li>
-            <a href="">blog one</a>
-            <a href="">blog two</a>
-            <a href="">blog three</a>
-            <a href="">blog details</a>
+            <a href="blog.php">blog one</a>
+            <a href="blog.php">blog two</a>
+            <a href="blog.php">blog three</a>
+            <a href="blog-details.php">blog details</a>
           </li>
         </ul>
       </div>
       </li>
       <li class="nav-li-item">
-      <a class="nav-link " href="#">Contact<span class="sr-only"><</span></a>
+      <a class="nav-link " href="#">Contact<span class="sr-only"> &#11167;</span></a>
       <div class="nav-drop">
         <ul>
           <li>
-            <a href="">contact one</a>
-            <a href="">contact two</a>
-            <a href="">contact three</a>
+            <a href="contact.php">contact one</a>
+            <a href="contact.php">contact two</a>
+            <a href="contact.php">contact three</a>
           </li>
         </ul>
       </div>

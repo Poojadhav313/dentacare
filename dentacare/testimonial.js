@@ -56,4 +56,4 @@ function prevBtnClick()
 
 
 
-console.log(slides);
+//console.log(slides);
