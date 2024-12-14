@@ -101,6 +101,43 @@
 
   </section>
 
+  <section id="experience-section">
+    <div id="experience-left">
+      <h2>Stay Ahead of Dental Issues with Routine Checkups</h2>
+      <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fa3a4f9274be0e6e0b3cda_About%20Experience%20Left.avif" alt="">
+    </div>
+
+    <div id="experience-right">
+      <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fa3a4e083adfa7f84b5112_About%20Experience%20Right.avif" alt="">
+      <h2>unique experience</h2>
+      <p>Lorem ipsum dolor sit amet consectetur. Quisque consectetur et integer nibh nulla massa imperdiet Urna tortor urna feugiat quisque platea.</p>
+      <div id="lists">
+        <ul>
+          <li>Cancer Screening</li>
+          <li>Oral Hygiene</li>
+          <li>Dental Cleaning</li>
+          <li>Cavity Detection</li>
+          <li>Digital X-Rays</li>
+        </ul>
+        <ul>
+          <li>Cancer Screening</li>
+          <li>Oral Hygiene</li>
+          <li>Dental Cleaning</li>
+          <li>Cavity Detection</li>
+          <li>Digital X-Rays</li>
+        </ul>
+        <ul>
+          <li>Cancer Screening</li>
+          <li>Oral Hygiene</li>
+          <li>Dental Cleaning</li>
+          <li>Cavity Detection</li>
+          <li>Digital X-Rays</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
   <div class="space" style="height: 500px;"></div>
 
 <?php include('footer.html'); ?>
