@@ -14,7 +14,14 @@
     <p>Lorem ipsum dolor sit amet consectetur. Condimentum pellentesque enim felis blandit ornare cursus quisque. Sagittis at a eget suscipit mattis nulla egestas porttitor massa.</p>  
   </section>
 
-
+  <section id="marquee-section">
+    <div class="marquee-content">
+      <p>Your Smile, Our Priority</p>
+    </div>
+    <div class="marquee-content">
+      <p>Your Smile, Our Priority</p>
+    </div>
+  </section>
 
 
 
