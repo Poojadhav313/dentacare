@@ -186,6 +186,50 @@
 
 
 <script src="video.js"></script>
-<script src="testimonial.js"></script>
+<!-- <script src="testimonial.js"></script> -->
+
+<script>
+  const track = document.querySelector("#slider-container");
+
+const slides = Array.from(track.children);
+
+const prevBtn = document.querySelector("#prev-btn");
+const nextBtn = document.querySelector("#next-btn");
+
+/////next btn
+nextBtn.addEventListener('click', nextBtnClick);
+
+function nextBtnClick()
+{
+  const currentSlide = track.querySelector('.current-slide');
+  var nextSlide = currentSlide.nextElementSibling;  
+
+  if (!nextSlide){
+    nextSlide = track.firstElementChild;
+  }
+  
+  nextSlide.style.left = '-450px';
+  currentSlide.classList.remove('current-slide');
+  nextSlide.classList.add('current-slide');
+}
+
+/////prev btn
+prevBtn.addEventListener('click', prevBtnClick);
+
+function prevBtnClick()
+{
+  const currentSlide = track.querySelector('.current-slide');
+  var prevSlide = currentSlide.previousElementSibling;
+
+  if (!prevSlide){
+    prevSlide = track.lastElementChild;
+  }
+
+
+  prevSlide.style.left = '-450px';
+  currentSlide.classList.remove('current-slide');
+  prevSlide.classList.add('current-slide');
+}
+</script>
 
 <?php include('footer.html'); ?>

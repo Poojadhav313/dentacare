@@ -152,10 +152,17 @@
 }
 
 
+/* testimonial section changes */
+.testimonial-data{
+  width: 40%;
+  margin-left: 100px;
+  text-align: left;
+}
 
-
-
-
+.testimonial-data > h1{
+  margin-left: -110px;
+}
+  
 
 
 

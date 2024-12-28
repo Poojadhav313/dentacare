@@ -173,7 +173,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 
 #about-testimonial-top img{
@@ -184,24 +184,23 @@
 }
 
 #about-testimonial-bottom{
-  display: flex;
-  align-items: center;
-  justify-content: center;    /* not workingggggggggggg */
-  margin: 0 20px;
-  gap: 50px;
-  border: 1px solid rebeccapurple
+  position: relative;
 }
 
 #slider-container > .about-testimonial-box{
   text-align: center;
   border-left: 1px solid var(--grey);
   border-right: 1px solid var(--grey);
+  min-width: 900px;
+  padding: 0 100px;
+  position: absolute;
+  left: -450px;
 }
 
 #slider-container{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .about-testimonial-data > *{
@@ -211,6 +210,7 @@
 .about-testimonial-data > p{
   font-weight: 400;
   color: var(--grey);
+  line-height: 30px;
 }
   
 .about-testimonial-data > .post{
@@ -218,20 +218,28 @@
   text-transform: uppercase;
 }
 
-.about-testimonial-arrows button{
+.about-testimonial-arrows > button{
   font-size: 15px;
   text-decoration: underline;
   border: none;
   background-color: transparent;
   cursor: pointer;
-  padding: 20px;
-  width: auto;
+  transition: 0.3s ease;
 }
 
-#testimonial-arrows{
-  position: relative;
+.about-testimonial-arrows > button:hover{
+  color: var(--blue);
 }
 
+#prev-btn{
+  position: absolute;
+  left: calc(100% - 550px);
+}
+
+#next-btn{
+  position: absolute;
+  right: calc(100% - 550px)
+}
 
 /* footer changes */
 
