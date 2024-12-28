@@ -16,14 +16,14 @@
 
 <section id="main-section">
   <div id="main-section-title">
-    <h1>Personalized Dental Care for a Lifetime of Healthy Smiles</h1>
-    <p>There are many variations of passages of lorem Ipsum available, but majority have suffered alteration in some form, by injected humor, or randomized words .passages of  available</p>
+    <h1 class="reveal">Personalized Dental Care for a Lifetime of Healthy Smiles</h1>
+    <p class="reveal">There are many variations of passages of lorem Ipsum available, but majority have suffered alteration in some form, by injected humor, or randomized words .passages of  available</p>
     <hr>
   </div>
 
   <div id="main-sectin-boxes">
 
-    <div class="box">
+    <div class="box reveal">
       <div class="box-title">
         <h1>01. Oral Surgery</h1>
       </div>
@@ -57,7 +57,7 @@
     </div>
     <hr>
 
-    <div class="box">
+    <div class="box reveal">
       <div class="box-title">
         <h1>02. Cavity Protection</h1>
       </div>
@@ -91,7 +91,7 @@
     </div>
     <hr>
 
-    <div class="box">
+    <div class="box reveal">
       <div class="box-title">
         <h1>03. Digital X-Rays</h1>
       </div>
@@ -125,7 +125,7 @@
     </div>
     <hr>
 
-    <div class="box">
+    <div class="box reveal">
       <div class="box-title">
         <h1>04. Space Maintenance</h1>
       </div>
@@ -159,7 +159,7 @@
     </div>
     <hr>
 
-    <div class="box">
+    <div class="box reveal">
       <div class="box-title">
         <h1>05. Teeth Braces</h1>
       </div>
@@ -202,15 +202,15 @@
 
 <section id="appointment-section">
   <div id="appointment-left">
-    <h1>Book Your Dental Checkup</h1>
-    <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f51cfc49a9ddbca4877358_Service%20Slider%20One%20Image-p-500.webp" alt="">
+    <h1 class="reveal reveal-left">Book Your Dental Checkup</h1>
+    <img class="reveal reveal-left" src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f51cfc49a9ddbca4877358_Service%20Slider%20One%20Image-p-500.webp" alt="">
   </div>
 
   <div id="appointment-right">
-    <p>There are many variations of passages of lorem Ipsum available, but majority have suffered alteration in some form, by injected humour, or randomised words passages of available,</p>
-    <button>Book Appointment</button>
-    <img class="img1" src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f51d0068ba42c0872b2594_Slider%20Large%20Image-p-800.webp" alt="">
-    <img class="img2" src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fa3a4f9274be0e6e0b3cda_About%20Experience%20Left-p-500.avif" alt="">
+    <p class="reveal">There are many variations of passages of lorem Ipsum available, but majority have suffered alteration in some form, by injected humour, or randomised words passages of available,</p>
+    <button class="reveal">Book Appointment</button>
+    <img class="img1 reveal" src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f51d0068ba42c0872b2594_Slider%20Large%20Image-p-800.webp" alt="">
+    <img class="img2 reveal reveal-right" src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fa3a4f9274be0e6e0b3cda_About%20Experience%20Left-p-500.avif" alt="">
   </div>
 </section>
 
@@ -233,7 +233,7 @@
   </div>
   
   <div id="slider-container">
-  <div class="testimonial-box current-slide">
+  <div class="testimonial-box current-slide reveal">
     <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66e91ea3ebb36835c2f8da51_Testimonials%20Image-p-500.webp" alt="">
     <div class="testimonial-data">
       <h1>Fantastic</h1>

@@ -16,15 +16,15 @@
 
   <section id="form-section">
     <h1 class="reveal">Contact Us</h1>
-    <form method="POST"  class="reveal"> 
+    <form method="POST" class="reveal"> 
       <div class="form-dub">
-        <div class="form-item reveal">
-          <label>First Name</label>
+        <div class="form-item">
+          <label class="reveal">First Name</label>
           <input type="text" name="fname" required>
         </div>
 
         <div class="form-item reveal">
-          <label>Last Name</label>
+          <label class="reveal">Last Name</label>
           <input type="text" name="lname" required>
         </div>
       </div>
@@ -33,14 +33,14 @@
 
       <div class="form-dub">
         <div class="form-item">
-          <label>Email address</label>
+          <label class="reveal">Email address</label>
           <input type="email" name="email" required>
         </div>
 
         <br>
 
         <div class="form-item">
-          <label>Phone no</label>
+          <label class="reveal">Phone no</label>
           <input type="text" name="phone" pattern="[0-9]{10}" maxlength="10" required>
         </div>
       </div>
@@ -48,7 +48,7 @@
       <br>
 
       <div class="form-item">
-        <label>Message</label><br>
+        <label class="reveal">Message</label><br>
         <textarea name="msg"></textarea>
       </div>
 
@@ -59,7 +59,7 @@
       </div>
 
       <submit></submit>
-      <input type="Submit" value="Send Message">
+      <input class="reveal" type="Submit" value="Send Message">
       
     </form>
 
@@ -90,10 +90,10 @@
   </section>
 
   <section id="middle-section" class="reveal">
-    <h1 >Stay Connected with Our Contact Information</h1>
+    <h1  class="reveal">Stay Connected with Our Contact Information</h1>
 
     <div class="boxes">
-      <div class="box">
+      <div class="box reveal reveal-left">
         <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fbe960eda3e825ab6d1789_Contact%20Locator%20Icon.svg" alt="">
         <span class="circle"></span>
 
@@ -101,7 +101,7 @@
         <p>Have a project in mind? Send a message.</p>
       </div>
 
-      <div class="box">
+      <div class="box reveal reveal-left">
         <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fbe960eda3e825ab6d1789_Contact%20Locator%20Icon.svg" alt="">
         <span class="circle"></span>
 
@@ -109,7 +109,7 @@
         <p>We’re interested in working together!</p>
       </div>
 
-      <div class="box">
+      <div class="box reveal reveal-left">
         <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fbe960eda3e825ab6d1789_Contact%20Locator%20Icon.svg" alt="" style="margin-top: 25px;">
         <span class="circle"></span>
 
