@@ -63,3 +63,21 @@ box4.addEventListener('mouseleave', () => {
 
   arrow4.innerHTML = '04';
 });
+
+// service scroll section
+
+const scrollContainer = document.getElementById('scroll-container');
+const boxes = document.querySelectorAll('.box');
+let currentIndex = 0; 
+const interval = 3000; 
+
+function scrollToBox() {
+  const boxWidth = boxes[0].offsetWidth + 20; 
+  scrollContainer.scrollTo({
+    left: currentIndex * boxWidth,
+    behavior: 'smooth',
+  });
+
+  currentIndex = (currentIndex + 1) % boxes.length; 
+}
+setInterval(scrollToBox, interval);

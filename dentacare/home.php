@@ -81,65 +81,50 @@
   <section id="service-scroll-section">
     <h1>Achieve Peak Oral Health with Our Expert Dental Checkups</h1>
     <div id="scroll-container">
-      <div class="box">
-        <p>Impacts</p>
+      <a href="service.php" class="box">
+        <div class="box-content">
+        <p>Hygiene</p>
         <hr>
-        <h3>Dental Impacts</h3>
-      </div>
+        <h3>Dental Hygiene</h3>
+        <p class="service-arrow"> > </p>
+        </div>
+      </a>
 
-      <div class="box">
+      <a href="service.php" class="box">
+        <div class="box-content">
         <p>Impacts</p>
         <hr>
         <h3>Dental Impacts</h3>
+        <p class="service-arrow"> &#8594; </p>
       </div>
-
-      <div class="box">
-        <p>Impacts</p>
+      </a>
+    
+    <a href="service.php" class="box">
+      <div class="box-content">
+        <p>Canal</p>
         <hr>
-        <h3>Dental Impacts</h3>
+        <h3>Tooth Root Canal</h3>
+        <p class="service-arrow"> &#8594; </p>
       </div>
-
-      <div class="box">
-        <p>Impacts</p>
+    </a>
+    
+    <a href="service.php" class="box">
+      <div class="box-content">
+        <p>Hygiene</p>
         <hr>
-        <h3>Dental Impacts</h3>
+        <h3>Dental Hygiene</h3>
+        <p class="service-arrow"> &#8594; </p>
       </div>
+    </a>
       
-      <div class="box">
-        <p>Impacts</p>
+    <a href="service.php" class="box">
+        <div class="box-content">
+        <p>Surgery</p>
         <hr>
-        <h3>Dental Impacts</h3>
+        <h3>Oral Surgery</h3>
+        <p class="service-arrow"> &#8594; </p>
       </div>
-
-      <div class="box">
-        <p>Impacts</p>
-        <hr>
-        <h3>Dental Impacts</h3>
-      </div>
-      
-      <div class="box">
-        <p>Impacts</p>
-        <hr>
-        <h3>Dental Impacts</h3>
-      </div>
-
-      <div class="box">
-        <p>Impacts</p>
-        <hr>
-        <h3>Dental Impacts</h3>
-      </div>
-
-      <div class="box">
-        <p>Impacts</p>
-        <hr>
-        <h3>Dental Impacts</h3>
-      </div>
-
-      <div class="box">
-        <p>Impacts</p>
-        <hr>
-        <h3>Dental Impacts</h3>
-      </div>
+    </a>     
 
     </div>
 

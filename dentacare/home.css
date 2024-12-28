@@ -143,7 +143,7 @@ hr{
   margin-right: 10px;
 }
 
-#buttons > a > button:hover{
+#buttons > a > button:hover, .btn:hover{
   color: var(--blue);
   box-shadow:inset 1px 1px var(--blue),
   inset -1px -1px var(--blue);
@@ -178,54 +178,70 @@ hr{
 
 #scroll-container{
   display: flex;
-  align-items: flex-end;
   justify-content: center;
   overflow: hidden;
+  height: 600px;
   gap: 30px;
-  height: 100%;
+  width: 100%;
 }
 
 #scroll-container > .box{
-  border: 1px solid rgb(21, 128, 0);
   padding: 0 170px;
-  height: 600px;
-  align-self: flex-end;
+  height: inherit;
+  display: flex;
+  align-items: flex-end;
   color: #fff;
-  background-image: url(https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/67176c192eba913f9966334f_Service%20Three%20Small-p-500.webp);
-  /* animation: servicescroll 25s infinite; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-decoration: none;
 }
 
-@keyframes servicescroll{
-  0%
-  {
-    transform: translateX(0);
-  }
-  10%
-  {
-    animation-delay: 2s;
-    transform: translateX(-100px);
-  }
-  20%
-  {
-    animation-timing-function:unset;
-    transform: translateX(-200px);
-  }
-  30%
-  {
-    animation-timing-function:linear;
-    transform: translateX(-300px);
-  }
-  40%
-  {
-    animation-timing-function:linear;
-    transform: translateX(-400px);
-  }
-  50%
-  {
-    animation-timing-function:linear;
-    transform: translateX(-500px);
-  }
+#scroll-container > .box > .box-content{
+  width: 200px;
+  text-align: center;
+  line-height: 20px;
+  position: relative;
+  transition: 0.3s ease;
 }
+
+.service-arrow{
+  border-radius: 50%;
+  padding: 30px;
+  height: 5px;
+  width: 5px;
+  color: var(--grey);
+  background-color: #fff;
+  position: absolute;
+  left: calc(35%);
+  bottom: calc(100% - 250px);
+}
+
+.box:hover .box-content{
+  transform: translateY(calc(10% - 150px));
+}
+
+.box:hover{
+  background-size: 120%;
+}
+
+#scroll-container > .box:nth-child(1){
+  background-image: linear-gradient(rgba(24, 24, 24, 0.5), rgba(24, 24, 24, 0.5)),url(https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66e94bfe076e0bff4592646d_pexels-shvetsa-3962328%201-p-800.webp);
+  margin-left: 1100px;
+}
+#scroll-container > .box:nth-child(2){
+  background-image: linear-gradient(rgba(24, 24, 24, 0.5), rgba(24, 24, 24, 0.5)), url(https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66e9559a772e018a0cec2dc1_pexels-cottonbro-7584495%201.avif);
+}
+#scroll-container > .box:nth-child(3){
+  background-image: linear-gradient(rgba(24, 24, 24, 0.5), rgba(24, 24, 24, 0.5)), url(https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66e94bff058785f20dfa3f14_female-patient-looking-mirror-dentist-s-office%201-p-500.webp);
+}
+#scroll-container > .box:nth-child(4){
+  background-image: linear-gradient(rgba(24, 24, 24, 0.5), rgba(24, 24, 24, 0.5)), url(https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66e94bfe076e0bff4592646d_pexels-shvetsa-3962328%201-p-800.webp);
+}
+#scroll-container > .box:nth-child(5){
+  background-image: linear-gradient(rgba(24, 24, 24, 0.5), rgba(24, 24, 24, 0.5)), url(https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66e94ef99cb64853c117f65b_image%20129-p-500.webp);
+}
+
 
 /* appointment section */
 #appointment-section{
@@ -410,7 +426,6 @@ hr{
   color: #fff;
   transform: rotate(-40deg);
 }
-
 
 
 
