@@ -1,47 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-
-  const revealElements = document.querySelectorAll('.reveal');
-
-  function scrollAnimation() {
-      const windowHeight = window.innerHeight;
-
-      revealElements.forEach((element) => {
-
-          const elementTop = element.getBoundingClientRect().top;
-
-          if (elementTop < windowHeight - 100) {
-              element.classList.add('active');
-          }
-      });
-  }
-
-  window.addEventListener('scroll', scrollAnimation);
-  scrollAnimation(); 
-});
-
-document.addEventListener("DOMContentLoaded", function() {
-
-  const revealElements = document.querySelectorAll('.revealtop');
-
-  function scrollAnimation() {
-      const windowHeight = window.innerHeight;
-
-      revealElements.forEach((element) => {
-
-          const elementTop = element.getBoundingClientRect().top;
-
-          if (elementTop < windowHeight - 100) {
-              element.classList.add('active');
-          }
-      });
-  }
-
-  window.addEventListener('scroll', scrollAnimation);
-  scrollAnimation(); 
-});
-
-
-
 ////////////////////////////// navbar color change when scroll //////////////////////////////
 
 var nav = document.getElementById('nav');
@@ -61,3 +17,17 @@ window.addEventListener('scroll', () =>{
     nav.style.backgroundSize = 'cover';
   }
 })
+
+
+
+// visible when scroll
+document.addEventListener("scroll", () => {
+  const reveals = document.querySelectorAll('.reveal');
+
+  reveals.forEach((reveal) => {
+    const top = reveal.getBoundingClientRect().top;
+    if (top < window.innerHeight) {
+      reveal.classList.add('active');
+    }
+  });
+});

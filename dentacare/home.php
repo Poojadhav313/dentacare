@@ -53,24 +53,24 @@
 
   <section id="care-section">
     <div id="care-left">
-      <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66ea812d7643016c71db5ee8_Trusted%20Care%20Main%20Image.avif" alt="">
+      <img class="reveal" src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66ea812d7643016c71db5ee8_Trusted%20Care%20Main%20Image.avif" alt="">
     </div>
     <div id="care-right">
-      <h1>Trusted Care for Lifelong Oral Health and Confidence</h1>
-      <p>Lorem ipsum dolor sit amet consectetur Ullamcorper aenean euismod nulla hac auctor amet fusce nunc Commodo pretium fringilla nulla porta nunc rhoncus odio convallis Dignissim tempor morbi nec euismod sed lectus.</p>
+      <h1 class="reveal">Trusted Care for Lifelong Oral Health and Confidence</h1>
+      <p class="reveal">Lorem ipsum dolor sit amet consectetur Ullamcorper aenean euismod nulla hac auctor amet fusce nunc Commodo pretium fringilla nulla porta nunc rhoncus odio convallis Dignissim tempor morbi nec euismod sed lectus.</p>
         <span><hr></span>
       <div id="patient">
         <div id="patient-left">
-        <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66ea812d968dc6414f5d5362_Trusted%20Care%20Cus%20Image%20Icon.svg" alt="">
+        <img class="reveal" src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66ea812d968dc6414f5d5362_Trusted%20Care%20Cus%20Image%20Icon.svg" alt="">
         <div>
-          <p>PATIENT</p>
-          <h4>John Carter</h4>
+          <p class="reveal">PATIENT</p>
+          <h4 class="reveal">John Carter</h4>
         </div>
         </div>
-        <img class="patient-sign" src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66ea812dc0f47825f5bfd67b_Trusted%20Care%20Customer%20Sign.webp" alt="">
+        <img class="patient-sign reveal" src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66ea812dc0f47825f5bfd67b_Trusted%20Care%20Customer%20Sign.webp" alt="">
       </div>
-      <h3>“Our goal is to equip you with the essential resources and guidance to transform your business idea into reality”</h3>
-      <div id="buttons">
+      <h3 class="reveal">“Our goal is to equip you with the essential resources and guidance to transform your business idea into reality”</h3>
+      <div id="buttons" class="reveal">
         <a href="contact.php"><button>Book Consultation</button></a>
         <a href="about.php"><button>More About Doctors</button></a>
       </div>
@@ -79,7 +79,7 @@
 
 
   <section id="service-scroll-section">
-    <h1>Achieve Peak Oral Health with Our Expert Dental Checkups</h1>
+    <h1 class="reveal">Achieve Peak Oral Health with Our Expert Dental Checkups</h1>
     <div id="scroll-container">
       <a href="service.php" class="box">
         <div class="box-content">
@@ -128,17 +128,17 @@
 
     </div>
 
-    <a href="service.php"><button class="btn">View More Service</button></a>
+    <a class="reveal" href="service.php"><button class="btn">View More Service</button></a>
   </section>
 
   <section id="appointment-section">
-    <h1>Book Your Appointment Online for Convenient Dental Care</h1>
-    <div class="border-box-1"></div>
-    <div class="border-box-2"></div>
+    <h1 class="reveal">Book Your Appointment Online for Convenient Dental Care</h1>
+    <div class="border-box-1 reveal reveal-left"></div>
+    <div class="border-box-2 reveal reveal-right"></div>
 
     <div id="appointment-box">
-      <h1>Book Your Dental Checkup</h1>
-      <p>There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration</p>
+      <h1 class="reveal">Book Your Dental Checkup</h1>
+      <p class="reveal">There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration</p>
       <a href="contact.php"><button class="btn">Book Consultation</button></a>
       <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66ed4e3cecf200cb7c937f25_Equipment%20Image.webp" alt="" class="img4">
     </div>
@@ -167,8 +167,8 @@
   </section>
 
   <section id="service-section">
-    <h1>Discover Comprehensive Dental Services for Every Smile</h1>
-    <p>Lorem ipsum dolor sit amet consectetur. Magna turpis integer tortor et sem egestas. Tortor eu quis quam sit massa rhoncus vulputate eu fusce. At ipsum tempor cras.</p>
+    <h1 class="reveal">Discover Comprehensive Dental Services for Every Smile</h1>
+    <p class="reveal">Lorem ipsum dolor sit amet consectetur. Magna turpis integer tortor et sem egestas. Tortor eu quis quam sit massa rhoncus vulputate eu fusce. At ipsum tempor cras.</p>
     <div id="service-box">
       <div id="service-box-left">
         <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/67209945b670001f82368848_Home%20One%20Smile%20Image-p-800.webp" alt="">
@@ -176,35 +176,35 @@
       <div id="service-box-right">
         <a href="service.php">
         <div class="service-box">
-          <h2>Smile Makeovers</h2>
+          <h2 class="reveal">Smile Makeovers</h2>
           <p> &#8594; </p>
         </div>
         </a>
         
         <a href="service.php">
         <div class="service-box">
-          <h2>Wisdom Teeth Removal</h2>
+          <h2 class="reveal">Wisdom Teeth Removal</h2>
           <p> &#8594; </p>
         </div>
         </a>
 
         <a href="service.php">
         <div class="service-box">
-          <h2>Crowns and Bridges</h2>
+          <h2 class="reveal">Crowns and Bridges</h2>
           <p> &#8594; </p>
         </div>
         </a>
 
         <a href="service.php">
         <div class="service-box">
-          <h2>Digital X-Rays</h2>
+          <h2 class="reveal">Digital X-Rays</h2>
           <p> &#8594; </p>
         </div>
         </a>
         
         <a href="service.php">
         <div class="service-box">
-          <h2>Gum Health Evaluation</h2>
+          <h2 class="reveal">Gum Health Evaluation</h2>
           <p> &#8594; </p>
         </div>
         </a>
