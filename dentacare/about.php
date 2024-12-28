@@ -25,11 +25,11 @@
 
   <section id="hover-section">
     <section id="section-title">
-      <p>Benefits of our salon</p>
+      <p class="reveal">Benefits of our salon</p>
     </section>
 
     <a href="service.php">
-    <div id="section1">
+    <div id="section1" class="reveal">
         <div class="hover-section">
           <h1>Smile makeovers</h1>
         </div>
@@ -44,7 +44,7 @@
     </a>
 
     <a href="service.php">
-    <div id="section2">
+    <div id="section2" class="reveal">
         <div class="hover-section">
           <h1>Wisdom Teeth Removal</h1>
         </div>
@@ -58,7 +58,7 @@
     </a>
 
     <a href="service.php">
-    <div id="section3">
+    <div id="section3" class="reveal">
         <div class="hover-section">
           <h1>Crowns and Bridges</h1>
         </div>
@@ -72,7 +72,7 @@
     </a>
 
     <a href="service.php">
-    <div id="section4">
+    <div id="section4" class="reveal">
         <div class="hover-section">
           <h1>Digital X-Rays</h1>
         </div>
@@ -86,7 +86,7 @@
     </a>
 
     <a href="service.php">
-    <div id="section5">
+    <div id="section5" class="reveal">
         <div class="hover-section">
           <h1>Gum Health Evaluation</h1>
         </div>
@@ -103,30 +103,30 @@
 
   <section id="experience-section">
     <div id="experience-left">
-      <h2>Stay Ahead of Dental Issues with Routine Checkups</h2>
-      <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fa3a4f9274be0e6e0b3cda_About%20Experience%20Left.avif" alt="">
+      <h2 class="reveal">Stay Ahead of Dental Issues with Routine Checkups</h2>
+      <img class="reveal" src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fa3a4f9274be0e6e0b3cda_About%20Experience%20Left.avif" alt="">
     </div>
 
     <div id="experience-right">
-      <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fa3a4e083adfa7f84b5112_About%20Experience%20Right.avif" alt="">
-      <h2>unique experience</h2>
-      <p>Lorem ipsum dolor sit amet consectetur. Quisque consectetur et integer nibh nulla massa imperdiet Urna tortor urna feugiat quisque platea.</p>
+      <img class="reveal" src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fa3a4e083adfa7f84b5112_About%20Experience%20Right.avif" alt="">
+      <h2 class="reveal">unique experience</h2>
+      <p class="reveal">Lorem ipsum dolor sit amet consectetur. Quisque consectetur et integer nibh nulla massa imperdiet Urna tortor urna feugiat quisque platea.</p>
       <div id="lists">
-        <ul>
+        <ul class="reveal reveal-left">
           <li>Cancer Screening</li>
           <li>Oral Hygiene</li>
           <li>Dental Cleaning</li>
           <li>Cavity Detection</li>
           <li>Digital X-Rays</li>
         </ul>
-        <ul>
+        <ul class="reveal reveal-left">
           <li>Cancer Screening</li>
           <li>Oral Hygiene</li>
           <li>Dental Cleaning</li>
           <li>Cavity Detection</li>
           <li>Digital X-Rays</li>
         </ul>
-        <ul>
+        <ul class="reveal reveal-left">
           <li>Cancer Screening</li>
           <li>Oral Hygiene</li>
           <li>Dental Cleaning</li>
@@ -148,17 +148,17 @@
 
   <section id="about-testimonial-section">
     <div id="about-testimonial-top">
-      <img src="https://img.freepik.com/free-photo/dentists-holding-dental-tools_107420-65564.jpg?t=st=1734162563~exp=1734166163~hmac=8dbb065595dd4032f7958fbd7604ae9db6d372ce282d79c3d658b46a8e153444&w=360" alt="">
+      <img class="reveal" src="https://img.freepik.com/free-photo/dentists-holding-dental-tools_107420-65564.jpg?t=st=1734162563~exp=1734166163~hmac=8dbb065595dd4032f7958fbd7604ae9db6d372ce282d79c3d658b46a8e153444&w=360" alt="">
     </div>
 
     <div id="about-testimonial-bottom">
       <div class="about-testimonial-arrows">
-        <button id="prev-btn"> PREV </button>
+        <button class="reveal reveal-left" id="prev-btn"> PREV </button>
       </div>
 
       <div id="slider-container">
         <div class="about-testimonial-box current-slide">
-          <div class="about-testimonial-data">
+          <div class="about-testimonial-data reveal">
             <h1>Hassel Free Services</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit nemo praesentium ut omnis! Enim, asperiores quasi eius amet nemo quia unde repudiandae dolor eaque voluptatem.</p>
             <h1>Kristie Erbe</h1>
@@ -178,7 +178,7 @@
       </div>
 
       <div class="about-testimonial-arrows">
-        <button id="next-btn"> NEXT </button>
+        <button class="reveal reveal-right" id="next-btn"> NEXT </button>
       </div>
 
     </div>
@@ -191,45 +191,44 @@
 <script>
   const track = document.querySelector("#slider-container");
 
-const slides = Array.from(track.children);
+  const slides = Array.from(track.children);
 
-const prevBtn = document.querySelector("#prev-btn");
-const nextBtn = document.querySelector("#next-btn");
+  const prevBtn = document.querySelector("#prev-btn");
+  const nextBtn = document.querySelector("#next-btn");
 
-/////next btn
-nextBtn.addEventListener('click', nextBtnClick);
+  /////next btn
+  nextBtn.addEventListener('click', nextBtnClick);
 
-function nextBtnClick()
-{
-  const currentSlide = track.querySelector('.current-slide');
-  var nextSlide = currentSlide.nextElementSibling;  
+  function nextBtnClick()
+  {
+    const currentSlide = track.querySelector('.current-slide');
+    var nextSlide = currentSlide.nextElementSibling;  
 
-  if (!nextSlide){
-    nextSlide = track.firstElementChild;
-  }
-  
-  nextSlide.style.left = '-450px';
-  currentSlide.classList.remove('current-slide');
-  nextSlide.classList.add('current-slide');
-}
-
-/////prev btn
-prevBtn.addEventListener('click', prevBtnClick);
-
-function prevBtnClick()
-{
-  const currentSlide = track.querySelector('.current-slide');
-  var prevSlide = currentSlide.previousElementSibling;
-
-  if (!prevSlide){
-    prevSlide = track.lastElementChild;
+    if (!nextSlide){
+      nextSlide = track.firstElementChild;
+    }
+    
+    nextSlide.style.left = '-450px';
+    currentSlide.classList.remove('current-slide');
+    nextSlide.classList.add('current-slide');
   }
 
+  /////prev btn
+  prevBtn.addEventListener('click', prevBtnClick);
 
-  prevSlide.style.left = '-450px';
-  currentSlide.classList.remove('current-slide');
-  prevSlide.classList.add('current-slide');
-}
+  function prevBtnClick()
+  {
+    const currentSlide = track.querySelector('.current-slide');
+    var prevSlide = currentSlide.previousElementSibling;
+
+    if (!prevSlide){
+      prevSlide = track.lastElementChild;
+    }
+
+    prevSlide.style.left = '-450px';
+    currentSlide.classList.remove('current-slide');
+    prevSlide.classList.add('current-slide');
+  }
 </script>
 
 <?php include('footer.html'); ?>
