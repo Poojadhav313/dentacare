@@ -16,12 +16,12 @@
 
   <section id="main-section">
     <section id="section-title">
-      <h1>Our latest blog</h1>
-      <p>There are many variations of passages of lorem Ipsum available, but majority have suffered alteration in some form, by injected humour.</p>
+      <h1 class="reveal">Our latest blog</h1>
+      <p class="reveal">There are many variations of passages of lorem Ipsum available, but majority have suffered alteration in some form, by injected humour.</p>
     </section>
 
     <div id="section1">
-        <div class="hover-section">
+        <div class="hover-section reveal">
           <div class="date"><span class="date-part">Dentistry</span> &#8226; October 30, 2024</div>
           <h1>How to Recognize Early Signs of Gum Disease</h1>
         </div>
@@ -35,7 +35,7 @@
     </div>
 
     <div id="section2">
-        <div class="hover-section">
+        <div class="hover-section reveal">
           <div class="date"><span class="date-part">Dentistry</span> &#8226; October 30, 2024</div>
           <h1>Understanding the Importance of Gum Health</h1>
         </div>
@@ -48,7 +48,7 @@
     </div>
 
     <div id="section3">
-        <div class="hover-section">
+        <div class="hover-section reveal">
           <div class="date"><span class="date-part">Dentistry</span> &#8226; October 30, 2024</div>
           <h1>The Ultimate Guide to Teeth Whitening Options</h1>
         </div>
@@ -61,7 +61,7 @@
     </div>
 
     <div id="section4">
-        <div class="hover-section">
+        <div class="hover-section reveal">
           <div class="date"><span class="date-part">Dentistry</span> &#8226; October 30, 2024</div>
           <h1>Understanding Different Types of Dental Fillings</h1>
         </div>
@@ -74,7 +74,7 @@
     </div>
 
     <div id="section5">
-        <div class="hover-section">
+        <div class="hover-section reveal">
           <div class="date"><span class="date-part">Dentistry</span> &#8226; October 30, 2024</div>
           <h1>Top 5 Benefits of Professional Teeth Cleaning</h1>
         </div>
@@ -87,7 +87,7 @@
     </div>
 
     <div id="section6">
-        <div class="hover-section">
+        <div class="hover-section reveal">
           <div class="date"><span class="date-part">Dentistry</span> &#8226; October 30, 2024</div>
           <h1>The Power of Preventive Dental Checkups</h1>
         </div>

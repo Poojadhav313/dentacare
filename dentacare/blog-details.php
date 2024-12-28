@@ -53,26 +53,26 @@
 
     <div id="news-section">
       <div id="news-title">
-        <h1>Recent news</h1>
-        <a href="">Browse all posts</a>
+        <h1 class="reveal">Recent news</h1>
+        <a class="reveal" href="#">Browse all posts</a>
       </div>
 
       <div id="news-boxes">
         <div class="box">
-          <img src="https://cdn.prod.website-files.com/66ff6ff93d2a162b38251e51/671f311872eb865b8589dc5a_Blog%20Six%20Pg-p-500.jpg" alt="">
-          <div class="date">Dentistry &#8226; October 30, 2024</div>
-          <h3>How to Recognize Early Signs of Gum Disease</h3>
-          <p>Lorem Ipsum donec phasellus vitae turpis condimentum cursus tempus. Nec curabitur in dictum et. Tellus eu nullam</p>
-          <a href="">Read More</a>
+          <img class="reveal" src="https://cdn.prod.website-files.com/66ff6ff93d2a162b38251e51/671f311872eb865b8589dc5a_Blog%20Six%20Pg-p-500.jpg" alt="">
+          <div class="date reveal">Dentistry &#8226; October 30, 2024</div>
+          <h3 class="reveal">How to Recognize Early Signs of Gum Disease</h3>
+          <p class="reveal">Lorem Ipsum donec phasellus vitae turpis condimentum cursus tempus. Nec curabitur in dictum et. Tellus eu nullam</p>
+          <a class="reveal" href="">Read More</a>
         </div>
 
 
         <div class="box">
-          <img src="https://cdn.prod.website-files.com/66ff6ff93d2a162b38251e51/671f30c898ab71bab31b4a36_Blog%20Five%20Pg-p-500.jpg" alt="">
-          <div class="date">Dentistry &#8226; October 30, 2024</div>
-          <h3>Understanding the importance of gum health</h3>
-          <p>Lorem Ipsum donec phasellus vitae turpis condimentum cursus tempus. Nec curabitur in dictum et. Tellus eu nullam</p>
-          <a href="">Read More</a>
+          <img class="reveal" src="https://cdn.prod.website-files.com/66ff6ff93d2a162b38251e51/671f30c898ab71bab31b4a36_Blog%20Five%20Pg-p-500.jpg" alt="">
+          <div class="date reveal">Dentistry &#8226; October 30, 2024</div>
+          <h3 class="reveal">Understanding the importance of gum health</h3>
+          <p class="reveal">Lorem Ipsum donec phasellus vitae turpis condimentum cursus tempus. Nec curabitur in dictum et. Tellus eu nullam</p>
+          <a class="reveal" href="">Read More</a>
         </div>
 
       </div>
