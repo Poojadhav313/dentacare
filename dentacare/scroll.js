@@ -31,3 +31,19 @@ document.addEventListener("scroll", () => {
     }
   });
 });
+
+
+
+// visible when scroll for header n banner section
+
+var bannerSection = document.getElementById('banner-section');
+var sectionChild = Array.from(bannerSection.children);
+
+var headerSection = document.getElementById('header');
+
+window.onload = () => {
+  sectionChild.forEach( child => {
+    child.classList.add('active');
+    headerSection.classList.add('active');
+  })
+}
