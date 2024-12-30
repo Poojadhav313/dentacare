@@ -14,6 +14,66 @@
     <p>Lorem ipsum dolor sit amet consectetur. Condimentum pellentesque enim felis blandit ornare cursus quisque. Sagittis at a eget suscipit mattis nulla egestas porttitor massa.</p>  
   </section>
 
+  <section id="rating-section">
+    <div id="rating-left">
+      <img class="reveal" src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fa434d863b2e8e9e6ff13e_About%20About%20Doc%20WO%20BG-p-800.webp" alt="">
+    </div>
+
+    <div id="rating-right">
+      <h1 class="reveal">Trusted Care for Lifelong Oral Health and Confidence</h1>
+      <p class="reveal">There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words.</p>
+      
+      <div id="rating-bullet">
+        <a href="service.php" class="bullet reveal">
+          <div class="bullet-left">
+            <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fa2471dbee463c9fda69fe_About%20Icon%20One.svg" alt="">
+            <h2>Certified experts</h2>
+          </div>
+          <div class="buller-right">
+            <p>&#129106;</p>
+          </div>
+        </a>
+        <a href="service.php" class="bullet reveal">
+          <div class="bullet-left">
+            <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fa2471dbee463c9fda69fe_About%20Icon%20One.svg" alt="">
+            <h2>Safe Product for Teeth</h2>
+          </div>
+          <div class="buller-right">
+            <p>&#129106;</p>
+          </div>
+        </a>
+        <a href="service.php" class="bullet reveal">
+          <div class="bullet-left">
+            <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66fa2471dbee463c9fda69fe_About%20Icon%20One.svg" alt="">
+            <h2>Affordable Price</h2>
+          </div>
+          <div class="buller-right">
+            <p>&#129106;</p>
+          </div>
+        </a>
+
+      </div>
+
+      <div class="reveal" id="rating-right-bottom">
+        <button class="btn">Book Appointment</button>
+        <div class="rate">
+          <div class="rate-left">
+            <h4>250K+</h4>
+            <div class="stars">
+              <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f6a467b4b507ee723cde7e_Star%206.svg" alt="">
+              <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f6a467b4b507ee723cde7e_Star%206.svg" alt="">
+              <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f6a467b4b507ee723cde7e_Star%206.svg" alt="">
+              <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f6a467b4b507ee723cde7e_Star%206.svg" alt="">
+              <img src="https://cdn.prod.website-files.com/66bedab1ce846a42bbf0956a/66f6a467b4b507ee723cde7e_Star%206.svg" alt="">
+            </div>
+          </div>
+
+          <p>5 star reviews from our satisfied customers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="marquee-section">
     <div class="marquee-content">
       <p>Your Smile, Our Priority</p>

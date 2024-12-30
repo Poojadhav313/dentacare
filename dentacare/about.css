@@ -3,6 +3,123 @@
   background-image: url(https://img.freepik.com/premium-photo/doctor-wearing-blue-medical-gloves-holding-surgical-cloth-pincers-towel-clamps-are-mounting-clamps_1030522-64.jpg?w=740);
 }
 
+/* rating section */
+#rating-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-top: 100px;
+  margin-right: 10px;
+}
+
+#rating-left > img{
+  height: 700px;
+  width: 500px;
+  border-radius: 50% 50% 0 0;
+  border-top: 1px solid var(--blue);
+  border-right: 1px solid var(--blue);
+}
+
+#rating-right{
+  width: 50%;
+}
+
+#rating-right > *{
+  margin-bottom: 20px;
+}
+
+#rating-right > h1{
+  font-size: 42px;
+  line-height: 50px;
+}
+
+#rating-right > p{
+  font-size: 15px;
+}
+
+.bullet{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.bullet:hover{
+  background-color: #d4d4d44f;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.bullet-left{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.bullet-left > img{
+  border-radius: 50%;
+  border: 1px solid var(--grey);
+  padding: 8px;
+  height: 55px;
+  aspect-ratio: 1;
+  margin-right: 20px;
+}
+
+#rating-right-bottom, .rate{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#rating-right-bottom > button{
+  color: #fff;
+  padding: 25px 50px;
+  background-color: var(--blue);
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s ease;
+  margin-right: 40px;
+}
+
+#rating-right-bottom > button:hover{
+  color: var(--blue);
+  box-shadow:inset 1px 1px var(--blue),
+  inset -1px -1px var(--blue);
+  background-color: #fff;
+}
+
+.rate{
+  justify-content: space-around;
+}
+
+.rate-left{
+  border-right: 1px solid var(--grey);
+  width: 30%;
+}
+
+.rate-left > .stars > img{
+  margin: 0;
+  padding: 0;
+}
+
+.rate-left > h4{
+  width: 50%;
+  font-size: 23px;
+  font-weight: 350;
+}
+
+.rate > p{
+  font-size: 14px;
+  width: 50%;
+  line-height: 20px;
+  margin-left: -30px;
+}
+
 /* marquee section */
 #marquee-section{
   margin-bottom: 50px;
@@ -207,7 +324,7 @@
   padding: 10px 0;
 }
 
-.about-testimonial-data > p{
+.about-testimonial-data > p, #rating-right > p{
   font-weight: 400;
   color: var(--grey);
   line-height: 30px;
